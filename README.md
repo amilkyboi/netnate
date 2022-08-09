@@ -1,7 +1,8 @@
 # amilkyboi.github.io
 
-*Updated 8 August 2022*
-This is a temporary repository for my website development project, NetNate. The current website is deployed using a third-party CSS theme hosted by W3Schools and is much too resource-heavy. I recently set up Hugo, a static site generator, on this repository to usher in a new age for NetNate. Hugo will allow me to maintain a more secure, easy to upgrade, and quicker to load website with full support for custom theming.
+> *Last Updated: 8 August 2022*
+
+This is a temporary repository for my website development project, NetNate. The current website is deployed using raw HTML, CSS, and JS and uses a third-party CSS theme hosted by W3Schools. Hugo, a static site generator, will be used on this repository to usher in a new age for NetNate. Hugo will allow me to maintain a more secure, easy to upgrade, and quicker to load website with full support for custom theming.
 
 ## Backend
 
@@ -16,13 +17,25 @@ Websites today are extremely bloated and more often than not contain copious amo
 - Minimal amounts of JavaScript
 - Delivery optimization on any system for any network
 
-Any and all of the information and/or opinions made in this project, during any stage, are and will always be completely free to share and distribute.
+Any and all of the information and/or opinions made in this project, during any stage, are and will always be completely free to share and distribute. My ultimate goal in creating this website is to make something that I can be proud to call my own.
 
 ## Upgrades
 
-Good motivations are key to any project, but what will this site actually contain? Out of all the improvements that I plan on making to the new website, I am most excited to showcase blog/wiki style pages. These pages will be available for all users to view with the foremost intention of documenting the progress that I have made on various projects throughout the years. I hope that the culmination of knowledge (good and bad) that will eventually be documented on these pages will be useful not only to me, but to anyone who decides to give my website a visit.
+In what ways will the new iteration of NetNate be improved over the current version? Good question, here's just a few:
+
+- *Zero* JavaScript. [^1]
+- Much improved load times.
+- Compressed `.webp` image formats only.
+- Improved security.
+- No reliance on outside CSS libraries.
+- Increased modularity.
+- Static site generation (thanks [Hugo](https://gohugo.io/)!).
+
+[^1]: No, I don't have some sort of vendetta against JS, but I do feel that it is extremely overused in today's online landscape as an exploitative tool. My refusal to use it stems mostly from this fact.
 
 ## Pages
+
+Good motivations are key to any project, but what will this site actually contain? Out of all the improvements that I plan on making to the new website, I am most excited to showcase blog/wiki style pages. These pages will be available for all users to view with the foremost intention of documenting the progress that I have made on various projects throughout the years. I hope that the culmination of knowledge (good and bad) that will eventually be documented on these pages will be useful not only to me, but to anyone who decides to give my website a visit.
 
 Below is a tentative list of all the blog/wiki style pages that I plan on implementing on the new website. Not all of these pages will be made immediately, some might never be made, and still others will be made that are not listed here.
 
