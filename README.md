@@ -1,6 +1,6 @@
 # amilkyboi.github.io
 
-> *Last Updated: 8 August 2022*
+> *Last Updated: 9 November 2022*
 
 This is a temporary repository for my website development project, NetNate. The current website is deployed using raw HTML, CSS, and JS and uses a third-party CSS theme hosted by W3Schools. Hugo, a static site generator, will be used on this repository to usher in a new age for NetNate. Hugo will allow me to maintain a more secure, easy to upgrade, and quicker to load website with full support for custom theming.
 
@@ -23,7 +23,7 @@ Any and all of the information and/or opinions made in this project, during any 
 
 In what ways will the new iteration of NetNate be improved over the current version? Good question, here's just a few:
 
-- *Zero* JavaScript. [^1]
+- Minimal[^1] JavaScript.
 - Much improved load times.
 - Compressed `.webp` image formats only.
 - Improved security.
@@ -31,7 +31,7 @@ In what ways will the new iteration of NetNate be improved over the current vers
 - Increased modularity.
 - Static site generation (thanks [Hugo](https://gohugo.io/)!).
 
-[^1]: No, I don't have some sort of vendetta against JS, but I do feel that it is extremely overused in today's online landscape as an exploitative tool. My refusal to use it stems mostly from this fact.
+[^1]: No, I don't have some sort of vendetta against JS, but I do feel that it is extremely overused in today's online landscape, many times as an exploitative tool. Since the KaTeX typesetting tool is built using JS, I cannot completely refrain from using JS without compromising the purpose of the website.
 
 ## Pages
 
