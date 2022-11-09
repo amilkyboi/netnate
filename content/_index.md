@@ -1,3 +1,9 @@
+---
+math: true
+---
+
 # Hello
 
-text
+\\[
+\epsilon
+\\]
