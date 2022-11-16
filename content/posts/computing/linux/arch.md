@@ -12,6 +12,10 @@ date: 2022-11-14
 ShowToc: true
 ---
 
+## Manual Install
+
+Create an `EFI`, `swap`, and `root` partition. Mount the `EFI` and `root` partitions and enable the swap drive with `swapon`.
+
 ## Settings for `archinstall`
 
 - Archinstall language: English
