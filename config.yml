@@ -1,7 +1,7 @@
 # Basic stuff
-baseURL: https://amilkyboi.github.io/
+baseURL: https://www.netnate.com
 languageCode: en-us
-title: amilkyboi.github.io
+title: netnate
 theme: netnate-theme
 
 # Enables shortcodes
@@ -42,7 +42,7 @@ menu:
           url: search
           weight: 10
         - name: GitHub
-          url: https://github.com/AMilkyBoi/amilkyboi.github.io
+          url: https://github.com/AMilkyBoi/netnate
 
 outputs:
     home:
@@ -52,8 +52,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: NetNate # Default author
+    # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    # author: netnate # Default author
 
     defaultTheme: auto
     # disableThemeToggle: true
@@ -69,19 +69,19 @@ params:
     # comments: false
 
     homeInfoParams:
-        Title: "amilkyboi.github.io"
+        Title: "netnate"
         Content: >
-            Website testing blah blah. Other stuff.
+            The website has finally been migrated.
     socialIcons:
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
+          url: "https://github.com/amilkyboi/netnate"
         - name: Rss
           url: "index.xml"
 
-    editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+    # editPost:
+    #    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    #    Text: "Suggest Changes" # edit text
+    #    appendFilePath: true # to append file path to Edit link
 
     # label:
     #   text: "Home"
