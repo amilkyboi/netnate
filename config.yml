@@ -26,14 +26,14 @@ taxonomies:
 
 menu:
     main:
-        - name: Series
-          url: series
-          weight: 1
-        - name: Tags
-          url: tags
-          weight: 2
         - name: Archive
           url: archives
+          weight: 1
+        - name: Series
+          url: series
+          weight: 2
+        - name: Tags
+          url: tags
           weight: 3
         - name: Search
           url: search
