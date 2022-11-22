@@ -21,7 +21,7 @@ Any and all of the information and/or opinions made in this project, during any 
 
 ## Upgrades
 
-In what ways will the new iteration of NetNate be improved over the current version? Good question, here's just a few:
+Below are a list of features that this website implements, all of which are improvements over the old website:
 
 - Minimal[^1] JavaScript.
 - Much improved load times.
