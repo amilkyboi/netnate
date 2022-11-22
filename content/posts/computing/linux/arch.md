@@ -4,7 +4,7 @@ title: Arch Linux
 description: Settings for `archinstall` and `i3-gaps`.
 
 series: [Computing]
-catergories: [Linux]
+categories: [Linux]
 tags: [Arch Linux]
 
 date: 2022-11-14

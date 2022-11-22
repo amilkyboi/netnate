@@ -26,20 +26,26 @@ taxonomies:
 
 menu:
     main:
-        - name: Archive
-          url: archives
+        - name: about
+          url: about
           weight: 1
-        - name: Series
-          url: series
+        - name: archive
+          url: archive
           weight: 2
-        - name: Tags
-          url: tags
+        - name: series
+          url: series
           weight: 3
-        - name: Search
-          url: search
+        - name: categories
+          url: categories
           weight: 4
-        - name: GitHub
-          url: https://github.com/AMilkyBoi/netnate
+        - name: tags
+          url: tags
+          weight: 5
+        - name: search
+          url: search
+          weight: 6
+        #- name: github
+        #  url: https://github.com/AMilkyBoi/netnate
 
 outputs:
     home:
