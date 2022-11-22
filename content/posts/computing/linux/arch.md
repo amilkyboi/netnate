@@ -148,7 +148,7 @@ Installing `p10k` fonts and `zsh-for-humans`
     1. Reload i3 `$mod+Shift+E`
     2. Paste the code below into a shell
 
-        ```jsx
+        ```bash
         if command -v curl >/dev/null 2>&1; then
           sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
         else

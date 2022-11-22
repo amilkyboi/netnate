@@ -15,7 +15,7 @@ buildExpired: false
 # Enable emoji
 enableEmoji: true
 # Use the Pygments library to highlight code
-pygmentsUseClasses: true
+pygmentsUseClasses: false
 
 # Provides and enables taxonomies, which act as site structure for Hugo, from 
 # least to most specific
@@ -51,7 +51,7 @@ outputs:
         - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    # env: production # to enable google analytics, opengraph, twitter-cards and schema.
     # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
     # author: netnate # Default author
 
@@ -118,10 +118,10 @@ markup:
         renderer:
             unsafe: true
     highlight:
-        noClasses: false
+        # noClasses: false
         # anchorLineNos: true
         codeFences: true
-        # guessSyntax: true
+        guessSyntax: true
         lineNos: true
         style: monokai
 
