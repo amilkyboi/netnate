@@ -10,6 +10,7 @@ tags: [Tag1, Tag2]
 date: 2022-11-13
 
 ShowToc: true
+TocOpen: true
 ---
 
 ## Heading 1

@@ -10,6 +10,7 @@ tags: [Arch Linux]
 date: 2022-11-14
 
 ShowToc: true
+TocOpen: true
 ---
 
 ## Manual Install
