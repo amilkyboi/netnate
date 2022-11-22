@@ -9,7 +9,7 @@ enableInlineShortcodes: true
 # Enables webcrawlers to look at sitemap.xml for search indexing
 enableRobotsTXT: true
 # Choose which post labels to build/publish
-buildDrafts: true
+buildDrafts: false
 buildFuture: false
 buildExpired: false
 # Enable emoji
