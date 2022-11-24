@@ -34,7 +34,7 @@ If the work has LOC data in its front matter or is listed in the official Librar
 
 ### BJ: Ethics
 
-- Aristotle (tr. Peters, F. H.) - *Nichomachean Ethics*
+- Aristotle (tr. Peters, F. H.) - *Nicomachean Ethics*
 
 ## C: Auxiliary Sciences of History
 
