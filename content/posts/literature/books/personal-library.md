@@ -40,7 +40,7 @@ If the work has LOC data in its front matter or is listed in the official Librar
 
 ### CB: History of Civilization
 
-- Boorstin, J. Daniel - *The Discoverers: A History of Man's Search to Know His World and Himself*
+- Boorstin, Daniel J. - *The Discoverers: A History of Man's Search to Know His World and Himself*
 
 ## D: World History
 
