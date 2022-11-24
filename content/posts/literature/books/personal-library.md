@@ -91,12 +91,12 @@ If the work has LOC data in its front matter or is listed in the official Librar
 - LaFleur, Richard A. - *Scribblers, Sculptors, and Scribes: A Companion to Wheelock's Latin and Other Introductory Textbooks*
 - Moreland, Floyd L. and Fleischer, Rita M. - *Latin: An Intensive Course*
 - Neumann, Jeanne M. - *Lingua Latina: A Companion to Familia Romana*, 2nd Ed.
-- Ørberg, Hans H. - *Lingua Latina: per se Illustrata - Colloquia Personarum*, 2nd Ed.
-- Ørberg, Hans H. - *Lingua Latina: per se Illustrata - Pars I, Exercitia Latina I*
-- Ørberg, Hans H. - *Lingua Latina: per se Illustrata - Pars I, Familia Romana*
-- Ørberg, Hans H. - *Lingua Latina: per se Illustrata - Pars I, Grammatica Latina*
-- Ørberg, Hans H. - *Lingua Latina: per se Illustrata - Pars I, Latine Disco Student's Manual*
-- Owens, Patrick M. - *Lingua Latina: per se Illustrata - Pars I, Glossarium*
+- Ørberg, Hans H. - *Lingua Latina per se Illustrata: Colloquia Personarum*, 2nd Ed.
+- Ørberg, Hans H. - *Lingua Latina per se Illustrata: Pars I - Exercitia Latina I*
+- Ørberg, Hans H. - *Lingua Latina per se Illustrata: Pars I - Familia Romana*
+- Ørberg, Hans H. - *Lingua Latina per se Illustrata: Pars I - Grammatica Latina*
+- Ørberg, Hans H. - *Lingua Latina per se Illustrata: Pars I - Latine Disco Student's Manual*
+- Owens, Patrick M. - *Lingua Latina per se Illustrata: Pars I - Glossarium*
 - Wheelock, Frederic M. and LaFleur, Richard A. - *Wheelock's Latin*, 7th Ed.
 - Wheelock, Frederic M. and LaFleur, Richard A. - *Wheelock's Latin Reader: Selections from Latin Literature*, 2nd Ed.
 
@@ -104,7 +104,7 @@ If the work has LOC data in its front matter or is listed in the official Librar
 
 - Liu, Cixin (tr. Liu, Ken) - *Death's End*
 - Liu, Cixin (tr. Liu, Ken) - *The Dark Forest*
-- Liu, Cixin (tr. Liu, Ken)- *The Three-Body Problem*
+- Liu, Cixin (tr. Liu, Ken) - *The Three-Body Problem*
 
 ## Q: Science
 
