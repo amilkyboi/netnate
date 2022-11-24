@@ -97,7 +97,7 @@ If the work has LOC data in its front matter or is listed in the official Librar
 - Ørberg, Hans H. - *Lingua Latina: per se Illustrata - Pars I, Grammatica Latina*
 - Ørberg, Hans H. - *Lingua Latina: per se Illustrata - Pars I, Latine Disco Student's Manual*
 - Owens, Patrick M. - *Lingua Latina: per se Illustrata - Pars I, Glossarium*
-- Wheelock, Frederic M. and LaFleur, Richard A. - *Wheelock's Latin*
+- Wheelock, Frederic M. and LaFleur, Richard A. - *Wheelock's Latin*, 7th Ed.
 - Wheelock, Frederic M. and LaFleur, Richard A. - *Wheelock's Latin Reader: Selections from Latin Literature*, 2nd Ed.
 
 ### PL: Eastern Asia, Africa, and Oceania
