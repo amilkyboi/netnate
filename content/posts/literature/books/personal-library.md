@@ -31,7 +31,6 @@ If the work has LOC data in its front matter or is listed in the official Librar
 
 - Aristotle (tr. Lawson-Tancred, Hugh) - *Metaphysics*
 
-
 ### BJ: Ethics
 
 - Aristotle (tr. Peters, F. H.) - *Nicomachean Ethics*
