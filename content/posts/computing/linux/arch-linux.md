@@ -11,13 +11,7 @@ date: 2022-11-14
 
 ShowToc: true
 TocOpen: true
-
-math: true
 ---
-
-## Testing
-
-Hello $$y_t = \beta_0 + \beta_1 x_t + \epsilon_t$$.
 
 ## Manual Install
 
