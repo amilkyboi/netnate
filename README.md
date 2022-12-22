@@ -1,8 +1,8 @@
 # netnate
 
-> *Last Updated: 21 November 2022*
+> *Last Updated: 21 Decemeber 2022*
 
-This is a repository for my website development project, netnate. The legacy website was deployed using raw HTML, CSS, and JS and uses a third-party CSS theme hosted by W3Schools. Hugo, a static site generator, is now used and will allow for a more secure, upgradeable, and efficient website with full support for custom theming.
+This is my website development project, netnate. The legacy website was deployed using raw HTML, CSS, and JS and uses a third-party CSS theme hosted by W3Schools. Hugo, a static site generator, is now used and allows for a more secure, upgradeable, and efficient website with full support for custom theming.
 
 ## Backend
 
@@ -17,7 +17,7 @@ Websites today are extremely bloated and more often than not contain copious amo
 - Minimal amounts of JavaScript
 - Delivery optimization
 
-Any and all of the information and/or opinions made in this project, during any stage, are and will always be completely free to share and distribute. This repository is licensed under the GNU GPLv3.
+Any and all of the information and/or opinions made in this project, during any stage, are and will always be completely free to share and distribute. This website is licensed under GNU GPLv3.
 
 ## Upgrades
 
@@ -42,7 +42,6 @@ Below is a tentative list of all the blog/wiki style pages that I plan on implem
 - Linux
   - Arch
   - Gentoo
-  - LFS
 - Software
   - Code Editors
   - Browsers
