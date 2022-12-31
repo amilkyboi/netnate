@@ -111,9 +111,11 @@ If the work has LOC data in its front matter or is listed in the official Librar
 
 - Boillot, Michel H. - *Understanding FORTRAN*, 2nd Ed.
 - Boyce, William E. and DiPrima, Richard C. - *Elementary Differential Equations and Boundary Value Problems*, 3rd Ed.
+- Kernighan, Brian W. and Ritchie, Dennis M. - *The C Programming Language*, 2nd Ed.
 - Kiusalaas, Jaan - *Numerical Methods in Engineering with Python 3*, 2nd Ed.
 - Matthes, Eric - *Python Crash Course: A Hands-On, Project-Based Introduction to Programming*, 2nd Ed.
 - Orleans, Joseph B. and Hart, Walter W. - *Intermediate Algebra*
+- Ramalho, Luciano - *Fluent Python: Clear, Concise, and Effective Programming*, 2nd Ed.
 - Spiegel, Murray R. - *Applied Differential Equations*, 3rd Ed.
 
 ### QC: Physics
