@@ -74,7 +74,7 @@ params:
     homeInfoParams:
         Title: "netnate"
         Content: >
-            The website has finally been migrated.
+            Check out my GitHub or subscribe to the RSS feed below.
     socialIcons:
         - name: github
           url: "https://github.com/amilkyboi/netnate"
