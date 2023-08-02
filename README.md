@@ -64,7 +64,7 @@ Below is a tentative list of all the blog/wiki style pages that I plan on implem
 - Music
 - Cars
 
-## Roadmap
+## Site Roadmap
 
 - [x] Create a working Hugo site
 - [x] Understand content organization and begin creating pages
@@ -75,3 +75,4 @@ Below is a tentative list of all the blog/wiki style pages that I plan on implem
 - [x] Create an about page
 - [x] Fork a Hugo theme and implement upgrades
 - [x] Change to a custom color theme
+- [ ] Improve the dropdown table of contents feature by adding a scroll bar
