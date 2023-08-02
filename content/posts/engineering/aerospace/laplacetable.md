@@ -15,16 +15,15 @@ TocOpen: false
 math: false
 ---
 
-Most Laplace tables I have found online have either too little information or do not meet my
-standards for typesetting, so I made my own.
+Most Laplace tables I have found online have either too little information or do not meet my standards for typesetting, so I made my own.
 
 ## Document
 
-![Example image](/images/laplace_table.webp)
+![Laplace table](/images/laplace_table.webp)
 
 ## Source Code
 
-```TeX
+```latex
 \documentclass[12pt]{article}
 \usepackage[margin=0.25in]{geometry}
 \usepackage{tabularx, amsmath, mathrsfs, physics}
