@@ -23,4 +23,4 @@ Hi, I'm an aerospace engineering masters student with interests in anything rela
 - [x] Create an about page
 - [x] Fork a Hugo theme and implement upgrades
 - [x] Change to a custom color theme
-- [ ] Improve the dropdown table of contents feature by adding a scroll bar
+- [x] Improve the dropdown table of contents feature
