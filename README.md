@@ -32,16 +32,3 @@ Below are a list of features that this website implements, all of which are impr
 - Static site generation
 
 [^1]: To be clear, a few select features on this website implement JS, such as the live table of contents, KaTeX math support, and the fuzzy finder search feature. Many websites, however, use JS far in excess of anything useful and hinder performance and/or security for no reason.
-
-## Site Roadmap
-
-- [x] Create a working Hugo site
-- [x] Understand content organization and begin creating pages
-- [x] Get a workable outline of website structure
-- [x] Update the theme
-- [x] Create first post
-- [x] Make working series, categories, and tags pages
-- [x] Create an about page
-- [x] Fork a Hugo theme and implement upgrades
-- [x] Change to a custom color theme
-- [x] Improve the dropdown table of contents feature
