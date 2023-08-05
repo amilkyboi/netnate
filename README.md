@@ -1,6 +1,6 @@
 # netnate
 
-> *Last Updated: 2 August 2023*
+> *Last Updated: 4 August 2023*
 
 This is my website development project, [netnate](https://www.netnate.com). Previously, this website was written using raw HTML, CSS, and JS and used a third-party CSS theme hosted by W3Schools. I'm now using [Hugo](https://gohugo.io/), a static site generator, as my framework. Hugo allows for a more secure, upgradeable, and efficient website with full support for custom theming.
 
@@ -75,4 +75,4 @@ Below is a tentative list of all the blog/wiki style pages that I plan on implem
 - [x] Create an about page
 - [x] Fork a Hugo theme and implement upgrades
 - [x] Change to a custom color theme
-- [ ] Improve the dropdown table of contents feature by adding a scroll bar
+- [x] Improve the dropdown table of contents feature
