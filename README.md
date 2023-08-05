@@ -33,37 +33,6 @@ Below are a list of features that this website implements, all of which are impr
 
 [^1]: To be clear, a few select features on this website implement JS, such as the live table of contents, KaTeX math support, and the fuzzy finder search feature. Many websites, however, use JS far in excess of anything useful and hinder performance and/or security for no reason.
 
-## Pages
-
-Below is a tentative list of all the blog/wiki style pages that I plan on implementing in the future.
-
-- Linux
-  - Arch
-  - Gentoo
-- Software
-  - Code Editors
-  - Browsers
-- Engineering
-  - Aerospace
-- Books
-  - Virtual Bookshelf
-  - Reviews
-- Electronics
-  - Arduino Projects
-  - 3D Printed Components
-- Stationery
-  - Fountain Pens
-  - Mechanical Pencils
-  - Handwriting
-- Language
-  - Latin
-  - German
-- Philosophy
-- History
-- Art
-- Music
-- Cars
-
 ## Site Roadmap
 
 - [x] Create a working Hugo site
