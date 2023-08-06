@@ -3,9 +3,7 @@ draft: false
 title: Arch Linux
 description: A simple installation of Arch from scratch with some basic tools.
 
-series: [Computing]
-categories: [Linux]
-tags: [Arch Linux]
+tags: [computing]
 
 date: 2023-08-02
 

@@ -3,9 +3,7 @@ draft: false
 title: Laplace Table
 description: A simple table of Laplace transforms typeset in LaTeX.
 
-series: [Engineering]
-categories: [Aerospace]
-tags: [Laplace Table]
+tags: [computing]
 
 date: 2023-01-28
 

@@ -32,18 +32,12 @@ menu:
         - name: archive
           url: archive
           weight: 2
-        - name: series
-          url: series
-          weight: 3
-        - name: categories
-          url: categories
-          weight: 4
         - name: tags
           url: tags
-          weight: 5
+          weight: 3
         - name: search
           url: search
-          weight: 6
+          weight: 4
         #- name: github
         #  url: https://github.com/AMilkyBoi/netnate
 

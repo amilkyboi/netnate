@@ -3,9 +3,7 @@ draft: false
 title: LaTeX Packages
 description: Packages that I find useful for writing scientific documents.
 
-series: [LaTeX]
-categories: [General]
-tags: [Packages]
+tags: [computing]
 
 date: 2023-08-02
 

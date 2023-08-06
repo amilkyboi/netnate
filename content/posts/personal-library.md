@@ -3,9 +3,7 @@ draft: false
 title: Personal Library
 description: A dynamic list of books that I own cataloged using Library of Congress (LOC) Classification. This list is currently a work in progress.
 
-series: [Literature]
-categories: [Books]
-tags: [Personal Library]
+tags: [books]
 
 date: 2022-11-22
 
