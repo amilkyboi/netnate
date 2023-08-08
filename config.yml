@@ -71,7 +71,7 @@ params:
             Check out my GitHub or subscribe to the RSS feed below.
     socialIcons:
         - name: github
-          url: "https://github.com/amilkyboi/netnate"
+          url: "https://github.com/amilkyboi"
         - name: Rss
           url: "index.xml"
 

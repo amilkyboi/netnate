@@ -10,4 +10,4 @@ ShowReadingTime: false
 math: true
 ---
 
-Hi, I'm an aerospace engineering masters student with interests in anything related to defense, \\(\LaTeX\\), Linux, programming, computers, and more. Thanks for visiting.
+Hi, I'm an aerospace engineering masters student with interests in defense, \\(\LaTeX\\), Linux, programming, and more. Thanks for visiting.
