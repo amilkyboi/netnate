@@ -15,7 +15,7 @@ TocOpen: true
 
 ### 1.1 Install a torrent client
 
-Download a torrent client like [qBittorrent](https://www.qbittorrent.org/download). On the same page, open the Checksums and Library Versions tab and copy the SHA-256 checksum for the 64-bit installer. Open PowerShell, navigate to the Downloads folder by typing `cd C:\Users\Nathan\Downloads` and then type `(Get-FileHash .\qbittorrent_4.5.2_x64_setup.exe).Hash -eq "f2ec7fa4c5ae273d6d7181c0c9df225eb8ce8e0e85577b236c7b335c093f2e71"`. If the prompt returns `True`, the downloaded file can be installed. Alternatively, install qBittorrent using winget by typing `winget install qBittorrent.qBittorrent` in a PowerShell terminal.
+Download a torrent client like [qBittorrent](https://www.qbittorrent.org/download). On the same page, open the Checksums and Library Versions tab and copy the SHA-256 checksum for the 64-bit installer. Open PowerShell, navigate to the Downloads folder by typing `cd C:\Users\user\Downloads` and then type `(Get-FileHash .\qbittorrent_4.5.2_x64_setup.exe).Hash -eq "f2ec7fa4c5ae273d6d7181c0c9df225eb8ce8e0e85577b236c7b335c093f2e71"`. If the prompt returns `True`, the downloaded file can be installed. Alternatively, install qBittorrent using winget by typing `winget install qBittorrent.qBittorrent` in a PowerShell terminal.
 
 ### 1.2 Install GPG
 
@@ -23,10 +23,10 @@ Install GNU Privacy Guard (GPG) via winget in PowerShell by typing `winget insta
 
 ### 1.3 Download the Arch Linux ISO
 
-Visit the Arch Wiki [downloads](https://archlinux.org/download/) page, click the magnet link for the latest version of Arch Linux, and torrent the file via qBittorrent. After the file has been downloaded, visit the [checksums](https://archlinux.org/download/#checksums) page and download the ISO PGP Signature. Navigate to the Downloads folder by typing `cd C:\Users\Nathan\Downloads` and type `gpg --verify .\archlinux-2023.05.03-x86_64.iso.sig .\archlinux-2023.05.03-x86_64.iso` to verify the Arch Linux ISO file using the appropriate signature. GPG should  return `Good Signature`. The User ID might not be certified, but this is fine. To be extra cautious, visit the [developers](https://archlinux.org/people/developers/) page and match the primary key fingerprint output by GPG to that shown for the matching developer.
+Visit the Arch Wiki [downloads](https://archlinux.org/download/) page, click the magnet link for the latest version of Arch Linux, and torrent the file via qBittorrent. After the file has been downloaded, visit the [checksums](https://archlinux.org/download/#checksums) page and download the ISO PGP Signature. Navigate to the Downloads folder by typing `cd C:\Users\user\Downloads` and type `gpg --verify .\archlinux-2023.05.03-x86_64.iso.sig .\archlinux-2023.05.03-x86_64.iso` to verify the Arch Linux ISO file using the appropriate signature. GPG should  return `Good Signature`. The User ID might not be certified, but this is fine. To be extra cautious, visit the [developers](https://archlinux.org/people/developers/) page and match the primary key fingerprint output by GPG to that shown for the matching developer.
 
 ### 1.4 Install Rufus
-
+BIOS
 Download Rufus, a bootable storage device creation tool, by visiting the [website](https://rufus.ie/en/). The executable is automatically checked for a SHA-256 signature by Windows. Right-click the executable and navigate to the Digital Signatures tab. The signed name should be ‘Akeo Consulting’. Alternatively, install Rufus using winget by typing `winget install Rufus.Rufus` in a PowerShell terminal.
 
 ### 1.5 Prepare the installation medium
@@ -192,13 +192,13 @@ First, edit the `visudo` file to enable the wheel group by typing `sudo EDITOR=n
 Add a user by typing the following line. The `-G` flag adds the user to the following groups and the `-d` flag assigns the user to the following directory.
 
 ```bash
-sudo useradd -G wheel -d /home/nathan -m nathan
+sudo useradd -G wheel -d /home/user -m user
 ```
 
 Give the user a password by typing
 
 ```bash
-sudo passwd nathan
+sudo passwd user
 ```
 
 and then typing in a password twice. Now type `exit` to log out of root and log into the user account. Ensure that `sudo` works by typing something like `sudo pacman -Syu`.
@@ -206,7 +206,7 @@ and then typing in a password twice. Now type `exit` to log out of root and log 
 If any problems are encountered establishing the new user, the user’s account and home directory can be deleted using the following command.
 
 ```bash
-sudo userdel -r nathan
+sudo userdel -r user
 ```
 
 ### 4.4 Yay and getting git
