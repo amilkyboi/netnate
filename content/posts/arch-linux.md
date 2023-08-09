@@ -26,7 +26,7 @@ Install GNU Privacy Guard (GPG) via winget in PowerShell by typing `winget insta
 Visit the Arch Wiki [downloads](https://archlinux.org/download/) page, click the magnet link for the latest version of Arch Linux, and torrent the file via qBittorrent. After the file has been downloaded, visit the [checksums](https://archlinux.org/download/#checksums) page and download the ISO PGP Signature. Navigate to the Downloads folder by typing `cd C:\Users\user\Downloads` and type `gpg --verify .\archlinux-2023.05.03-x86_64.iso.sig .\archlinux-2023.05.03-x86_64.iso` to verify the Arch Linux ISO file using the appropriate signature. GPG should  return `Good Signature`. The User ID might not be certified, but this is fine. To be extra cautious, visit the [developers](https://archlinux.org/people/developers/) page and match the primary key fingerprint output by GPG to that shown for the matching developer.
 
 ### 1.4 Install Rufus
-BIOS
+
 Download Rufus, a bootable storage device creation tool, by visiting the [website](https://rufus.ie/en/). The executable is automatically checked for a SHA-256 signature by Windows. Right-click the executable and navigate to the Digital Signatures tab. The signed name should be ‘Akeo Consulting’. Alternatively, install Rufus using winget by typing `winget install Rufus.Rufus` in a PowerShell terminal.
 
 ### 1.5 Prepare the installation medium
