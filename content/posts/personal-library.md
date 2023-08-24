@@ -128,7 +128,7 @@ TocOpen: true
 | - | - | - |
 | Abbott & von Doenhoff | *Theory of Wing Sections* | - |
 | Anderson | *Introduction to Flight* | 8th Ed. |
-| Anderson | *Hypersonic and High-Temperature Gas Dynamics* | - |
+| Anderson | *Hypersonic and High-Temperature Gas Dynamics* | 3rd Ed. |
 | Bate, Meuller, White, & Saylor | *Fundamentals of Astrodynamics* | 2nd Ed. |
 | Becker, Carey, & Oden | *Finite Elements* | Vol. 1 |
 | Bedford & Liechti | *Mechanics of Materials* | 2nd Ed. |
