@@ -1,11 +1,11 @@
 ---
 draft: false
 title: Personal Library
-description: A dynamic list of books that I own.
+description: A dynamically updated list of books that I own.
 
 tags: [books]
 
-date: 2023-08-23
+date: 2023-09-22
 
 ShowToc: true
 TocOpen: true
@@ -78,7 +78,6 @@ TocOpen: true
 | Fullenkamp, Bowman, & Luvaas | *Guide to the Vicksburg Campaign* | - |
 | Ford & Zaloga | *Overlord: The D-Day Landings* | - |
 | Gibbon | *The History of the Decline and Fall of the Roman Empire: Abriged Edition* | ed. Womersley |
-| Gibbon | *The History of the Decline and Fall of the Roman Empire* | - |
 | Herodotus | *The Histories* | tr. de Sélincourt |
 | Livy | *A History of Rome* | tr. Hadas & Poe |
 | McNab | *Military Uniforms: Visual Encyclopedia* | - |
@@ -147,6 +146,7 @@ TocOpen: true
 | - | - | - |
 | Feynman et al. | *The Feynman Lectures on Physics* | New Millennium Ed. |
 | Feynman et al. | *Exercises for the Feynman Lectures on Physics* | New Millennium Ed. |
+| Griffiths | *Introduction to Electrodynamics* | 4th Ed. |
 | Griffiths & Schroeter | *Introduction to Quantum Mechanics* | 3rd Ed. |
 | Siegman | *Lasers* | - |
 | Susskind & Hrabovsky | *Classical Mechanics* | - |
