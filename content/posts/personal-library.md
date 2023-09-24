@@ -13,35 +13,35 @@ TocOpen: true
 
 ## Philosophy
 
-| Author | Title | Notes |
-| - | - | - |
-| Aristotle | *The Metaphysics* | tr. Lawson-Tancred |
-| Aristotle | *Nicomachean Ethics* | tr. Peters |
-| Aurelius | *Meditations* | tr. Hammond |
-| Epictetus | *Discourses* | tr. Higginson |
-| Nietzsche | *Thus Spoke Zarathustra* | tr. Hollingdale |
-| Plato | *The Last Days of Socrates* | tr. Tredennick & Tarrant |
-| Plato | *Republic* | tr. Waterfield, Robin |
-| Russell | *A History of Western Philosophy* | - |
+| Author | Title | Notes | ISBN-13 |
+| - | - | - | - |
+| Aristotle | *The Metaphysics* | tr. Lawson-Tancred | 978-0140446197 |
+| Aristotle | *Nicomachean Ethics* | tr. Peters | 978-0760752364 |
+| Aurelius | *Meditations* | tr. Hammond | 978-0140449334 |
+| Epictetus | *Discourses* | tr. Higginson | Pre-ISBN |
+| Nietzsche | *Thus Spoke Zarathustra* | tr. Hollingdale | 978-0140441185 |
+| Plato | *The Last Days of Socrates* | tr. Tredennick & Tarrant | 978-0140445824 |
+| Plato | *Republic* | tr. Waterfield, Robin | 978-0192833709 |
+| Russell | *A History of Western Philosophy* | - | 978-0671201586 |
 
 ## Literature
 
-| Author | Title | Notes |
-| - | - | - |
-| Austen | *Pride and Prejudice* | - |
-| Bradbury | *Fahrenheit 451* | - |
-| Cicero et al. | *The Portable Roman Reader* | ed. Davenport |
-| Heller | *Catch-22* | - |
-| Hosseini | *The Kite Runner* | - |
-| Lee | *To Kill a Mockingbird* | - |
-| Márquez | *Chronicle of a Death Foretold* | tr. Rabassa |
-| Matthee | *Fiela's Child* | - |
-| Orwell | *1984* | - |
-| Süskind | *Perfume* | tr. Woods |
-| Tolkien | *The Hobbit* | - |
-| Tolkien | *The Lord of the Rings* | - |
-| Twain | *The Adventures of Tom Sawyer* | - |
-| Verne | *Seven Novels* | - |
+| Author | Title | Notes | ISBN-13 |
+| - | - | - | - |
+| Austen | *Pride and Prejudice* | - | 978-0895771988 |
+| Bradbury | *Fahrenheit 451* | - | 978-0345342966 |
+| Cicero et al. | *The Portable Roman Reader* | ed. Davenport | 978-0140150568 |
+| Heller | *Catch-22* | - | 978-1451626650 |
+| Hosseini | *The Kite Runner* | - | 978-1594631931 |
+| Lee | *To Kill a Mockingbird* | - | 978-0446310789 |
+| Márquez | *Chronicle of a Death Foretold* | tr. Rabassa | 978-1400034710 |
+| Matthee | *Fiela's Child* | - | 978-0226510835 |
+| Orwell | *1984* | - | 978-0451524935 |
+| Süskind | *Perfume* | tr. Woods | 978-0375725845 |
+| Tolkien | *The Hobbit* | - | 978-0345339683 |
+| Tolkien | *The Lord of the Rings* | - | 978-0544003415 |
+| Twain | *The Adventures of Tom Sawyer* | - | 978-1593081393 |
+| Verne | *Seven Novels* | - | 978-1435122956 |
 
 ## Sci-Fi
 
