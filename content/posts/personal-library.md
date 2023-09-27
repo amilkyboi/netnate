@@ -155,7 +155,7 @@ TocOpen: true
 | Schaub & Junkins               | *Analytical Mechanics of Space Systems*                   | 4th Ed. | 978-1624105210 |
 | Shigley & Mischke              | *Mechanical Engineering Design*                           | 5th Ed. | 978-0070568990 |
 | Spurk                          | *Fluid Mechanics*                                         | -       | 978-3540616511 |
-| Spurk                          | *Fluid Mechanics: Problems and Solution*                  | -       | 978-3540616528 |
+| Spurk                          | *Fluid Mechanics: Problems and Solutions*                 | -       | 978-3540616528 |
 | Steidel                        | *An Introduction to Mechanical Vibrations*                | 3rd Ed. | 978-0471845454 |
 | Sutton & Biblarz               | *Rocket Propulsion Elements*                              | 9th Ed. | 978-1118753651 |
 | Vance                          | *Rotordynamics of Turbomachinery*                         | -       | 978-0471802587 |
