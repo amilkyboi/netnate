@@ -21,7 +21,7 @@ TocOpen: true
 | Epictetus | *Discourses*                      | tr. Higginson            | Pre-ISBN       |
 | Nietzsche | *Thus Spoke Zarathustra*          | tr. Hollingdale          | 978-0140441185 |
 | Plato     | *The Last Days of Socrates*       | tr. Tredennick & Tarrant | 978-0140445824 |
-| Plato     | *Republic*                        | tr. Waterfield, Robin    | 978-0192833709 |
+| Plato     | *Republic*                        | tr. Waterfield           | 978-0192833709 |
 | Russell   | *A History of Western Philosophy* | -                        | 978-0671201586 |
 
 ## Literature
