@@ -5,7 +5,7 @@ description: A simple installation of Arch from scratch with some basic tools.
 
 tags: [computing]
 
-date: 2023-08-02
+date: 2022-08-26
 
 ShowToc: true
 TocOpen: true

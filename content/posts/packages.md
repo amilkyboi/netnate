@@ -15,7 +15,7 @@ math: true
 
 ## Essentials
 
-I use these packages in every \\(\LaTeX\\) document that I write, no matter what.
+Generally useful packages that offer commonly used macros.
 
 1. [`fancyhdr`](https://ctan.org/pkg/fancyhdr) - provides tools for constructing headers and footers with all kinds of customizable options
 2. [`geometry`](https://ctan.org/pkg/geometry) - changes page dimensions and removes the unnecessarily large default margins
@@ -25,7 +25,7 @@ I use these packages in every \\(\LaTeX\\) document that I write, no matter what
 
 ## Other Useful Packages
 
-Things that I use more often than not, but it really depends on the type and scale of the document that I'm working on.
+Packages I use depending on the type and scale of the document itself.
 
 1. `amssymb` - provides an extended symbol collection as a superset of [`amsfonts`](https://ctan.org/pkg/amsfonts) that includes some more obscure symbols
    - `amsfonts` is included and loads things like `\mathbb` for characters like \\(\mathbb{R}\\)
