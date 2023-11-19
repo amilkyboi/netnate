@@ -205,19 +205,19 @@ TocOpen: true
 | Orleans & Hart  | *Intermediate Algebra*                                          | -       | Pre-ISBN   |
 | Spiegel         | *Applied Differential Equations*                                | 3rd Ed. | 0130400970 |
 
-## Programming
+## Computer Science
 
-| Author                             | Title                                                                 | Notes   | ISBN-13    |
-| ---------------------------------- | --------------------------------------------------------------------- | ------- | ---------- |
-| Ball                               | *Writing an Interpreter in Go*                                        | -       | 3982016115 |
-| Ball                               | *Writing a Compiler in Go*                                            | -       | 3982016108 |
-| Cormen, Leiserson, Rivest, & Stein | *Introduction to Algorithms*                                          | 4th Ed. | 0262046305 |
-| Gorelick & Ozsvald                 | *High Performace Python: Practical Performant Programming for Humans* | 2nd Ed. | 1492055020 |
-| Kernighan & Ritchie                | *The C Programming Language*                                          | 2nd Ed. | 0131103627 |
-| Kiusalaas                          | *Numerical Methods in Engineering with Python 3*                      | -       | 1107033856 |
-| Matthes                            | *Python Crash Course*                                                 | 2nd Ed. | 1593279288 |
-| Ramalho                            | *Fluent Python: Clear, Concise, and Effective Programming*            | 2nd Ed. | 1492056355 |
-| Slatkin                            | *Effective Python: 90 Specific Ways to Write Better Python*           | 2nd Ed. | 0134853987 |
+| Author                             | Title                                            | Notes   | ISBN-13    |
+| ---------------------------------- | ------------------------------------------------ | ------- | ---------- |
+| Ball                               | *Writing an Interpreter in Go*                   | -       | 3982016115 |
+| Ball                               | *Writing a Compiler in Go*                       | -       | 3982016108 |
+| Cormen, Leiserson, Rivest, & Stein | *Introduction to Algorithms*                     | 4th Ed. | 0262046305 |
+| Gorelick & Ozsvald                 | *High Performace Python*                         | 2nd Ed. | 1492055020 |
+| Kernighan & Ritchie                | *The C Programming Language*                     | 2nd Ed. | 0131103627 |
+| Kiusalaas                          | *Numerical Methods in Engineering with Python 3* | -       | 1107033856 |
+| Matthes                            | *Python Crash Course*                            | 2nd Ed. | 1593279288 |
+| Ramalho                            | *Fluent Python*                                  | 2nd Ed. | 1492056355 |
+| Slatkin                            | *Effective Python*                               | 2nd Ed. | 0134853987 |
 
 ## Miscellaneous
 
