@@ -1,15 +1,10 @@
----
-draft: false
-title: Personal Library
-description: The books in my personal library.
-
-tags: [books]
-
-date: 2023-11-11
-
-ShowToc: true
-TocOpen: true
----
++++
+title = 'Personal Library'
+date = 2022-08-01
+draft = false
+tags = ['books']
+summary = 'The books I own.'
++++
 
 ## Philosophy
 

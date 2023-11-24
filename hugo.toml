@@ -1,0 +1,28 @@
+baseURL = 'https://www.netnate.com'
+languageCode = 'en-us'
+title = 'netnate'
+theme = 'netnate_theme'
+
+[[menus.main]]
+name = 'about'
+pageRef = '/about'
+weight = 10
+
+[[menus.main]]
+name = 'posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'tags'
+pageRef = '/tags'
+weight = 30
+
+[markup]
+    [markup.highlight]
+        style = 'gruvbox'
+
+[module]
+    [module.hugoVersion]
+        extended = false
+        min = '0.120.2'

@@ -1,17 +1,12 @@
----
-draft: false
-title: LaTeX Packages
-description: Packages that I find useful for writing scientific documents.
++++
+title = 'LaTeX Packages'
+date = 2022-08-02
+draft = false
+tags = ['computing']
+summary = 'Some neat packages.'
 
-tags: [computing]
-
-date: 2023-08-02
-
-ShowToc: false
-TocOpen: false
-
-math: true
----
+math = true
++++
 
 ## Essentials
 

@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ partialCached "head/css.html" . }}
+
+{{/*  katex  */}}
+{{ if .Params.math }}
+    {{ partial "math.html" . }}
+{{ end }}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                // default
+                {left: "$$", right: "$$", display: true},
+                // inline
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
