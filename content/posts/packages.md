@@ -68,7 +68,8 @@ Reimplementing `physics` solely using other packages isn't really possible. Ther
 My preamble is shown below. I'm not totally happy with how the automated braces are being performed; ideally I'd like a single macro `\ab` that accepts `(`, `[`, `{`, and `|` as arguments. I'll get to that at some point.
 
 ```latex
-\usepackage{bm, braket, derivative, esint, mathtools}
+\usepackage{bm, braket, derivative, mathtools}
+\usepackage{esint} % load after amsmath (mathtools) to prevent clashes
 
 % automated bracing
 \DeclarePairedDelimiter{\pr}{\lparen}{\rparen}        % parenthesis
