@@ -63,7 +63,7 @@ Honestly, I never had any issues with spacing, but I did have other problems tha
 
 ### The Fix
 
-Reimplementing `physics` solely using other packages isn't really possible. There's a newer packaged named [`physics2`](https://ctan.org/pkg/physics2) that implements some of the features of `physics`, but it's by no means a replacement. Instead, I've used `derivative` to replace derivatives and differentials, `bm` to help with vector notation, and `braket` for Dirac notation, along with several custom commands to replace the parts of `physics` that I most often use.
+Reimplementing `physics` solely using other packages isn't really possible. There's a newer package named [`physics2`](https://ctan.org/pkg/physics2) that implements some of the features of `physics`, but it's by no means a replacement. Instead, I've used `derivative` to replace derivatives and differentials, `bm` to help with vector notation, and `braket` for Dirac notation, along with several custom commands to replace the parts of `physics` that I most often use.
 
 My preamble is shown below. I'm not totally happy with how the automated braces are being performed; ideally I'd like a single macro `\ab` that accepts `(`, `[`, `{`, and `|` as arguments. I'll get to that at some point.
 
@@ -143,8 +143,8 @@ I think the first bullet point is clear enough, and is generally well followed. 
 
 Typesetting differentials is mainly a matter of personal taste, but I find upright differentials to be more clear (and more correct, since they're operators, but I won't go there). Most mathematicians still prefer the italic text, and most existing material still uses this form. In newer texts, I have started seeing a marked increase in the upright variation, so it seems to be catching on, at least in the physics and engineering communities.
 
-Upright dimensionless numbers are more important. For instance, using $Re$ instead of $\mathrm{Re}$ to denote the Reynold's number is unclear, since $R$ and $e$ could easily be interpreted as two separate variables. In most cases, the meaning will be clear from context, but it's always better to adopt a standard and follow it for clarity. Descriptive text falls into the same category.
+Upright dimensionless numbers are more important. For instance, using $Re$ instead of $\mathrm{Re}$ to denote the Reynold's number is unclear, since $R$ and $e$ could easily be interpreted as two separate variables. In most cases, the meaning will be clear from context, but it's always better to adopt a standard and follow it for the sake of consistency. Descriptive text falls into the same category.
 
-Variable indices are the most tricky to nail down. When the subscript is descriptive, like $a_\mathrm{profile}$, it should be upright. For index counters as in $\sum_i x_i$, italic is correct. Technically, according to ISO and NIST, one-letter subscripts that refer to a name, such as $k_\mathrm{B}$ for the Boltzmann constant, or $m_\mathrm{e}$ for the mass of an electron, should be upright. However, the American Physical Society recommends all single-letter subscripts to be italic. I've seen both done in books and papers, and I prefer the APS guidelines.
+Variable indices are the most tricky to nail down. When the subscript is descriptive, like $a_\mathrm{profile}$, it should be upright. For index counters as in $\sum_i x_i$, italic is correct. Technically, according to ISO and NIST, one-letter subscripts that refer to a name, such as $k_\mathrm{B}$ for the Boltzmann constant, or $m_\mathrm{e}$ for the mass of an electron, should be upright. However, the American Physical Society recommends all single-letter subscripts to be italic. I've seen both in books and in papers, but I prefer the APS guidelines.
 
 If you're following the 'official' ISO standards, even the imaginary unit $i$, Euler's number $e$, and $\pi$ should be upright. This practice is absolutely atrocious and I don't recommend following it.
