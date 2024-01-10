@@ -95,6 +95,7 @@ My preamble is shown below. I'm not totally happy with how the automated braces 
 \newcommand{\curl}[1]{\bm{\nabla} \vcrs #1} % curl
 \newcommand{\slap}[1]{\nabla^2 #1}          % scalar laplacian
 \newcommand{\vlap}[1]{\bm{\nabla}^2 #1}     % vector laplacian
+\newcommand{\del}{\bm{\nabla}}              % del operator (bold nabla)
 
 % dirac notation
 \renewcommand{\bra}{\Bra}             % expanding bra as default
@@ -117,8 +118,8 @@ My preamble is shown below. I'm not totally happy with how the automated braces 
 \newcommand{\hc}[1]{#1^\dag} % hermitian conjugate
 
 % linear operators
-\newcommand{\vop}[1]{\mathbf{#1}} % vector operator
-\newcommand{\sop}[1]{\mathrm{#1}} % scalar operator
+\newcommand{\vop}[1]{\bm{\hat{#1}}} % vector operator
+\newcommand{\sop}[1]{\hat{#1}}      % scalar operator
 
 % constants
 \newcommand{\img}{i} % imaginary unit
