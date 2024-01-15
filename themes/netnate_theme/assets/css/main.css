@@ -4,13 +4,27 @@ color theme from: https://github.com/rebelot/kanagawa.nvim
 
 /* body */
 
+/* default */
 body {
     background-color: #16161D;
     color: #DCD7BA;
     font-family: sans-serif;
     margin: auto;
-    max-width: 50%;
     line-height: 1.5;
+}
+
+/* pc */
+@media screen and (min-width: 800px) {
+  body {
+    width: 50%;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 799px) {
+  body {
+    width: 90%;
+  }
 }
 
 /* title headings */
