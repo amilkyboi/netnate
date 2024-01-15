@@ -2,28 +2,18 @@
 color theme from: https://github.com/rebelot/kanagawa.nvim
 */
 
+/* body */
+
 body {
     background-color: #16161D;
     color: #DCD7BA;
     font-family: sans-serif;
     margin: auto;
     max-width: 50%;
+    line-height: 1.5;
 }
 
-header {
-    display: flex;
-    border-bottom: 1px dashed #DCD7BA;
-    margin-bottom: 1rem;
-}
-
-.highlight {
-    display: flex;
-    overflow: auto;
-}
-
-.tags {
-    padding-top: 2rem;
-}
+/* title headings */
 
 h1 {
     color: #7FB4CA;
@@ -31,6 +21,7 @@ h1 {
 
 h1 a {
     color: #7FB4CA;
+    text-decoration: none;
 }
 
 h2 {
@@ -39,6 +30,7 @@ h2 {
 
 h2 a {
     color: #658594;
+    text-decoration: none;
 }
 
 h3 {
@@ -47,7 +39,29 @@ h3 {
 
 h3 a {
     color: #658594;
+    text-decoration: none;
 }
+
+/* links */
+
+a {
+    color: #FFA066;
+    text-decoration-style: dotted;
+}
+
+a:hover {
+    color: #E82424;
+}
+
+/* header */
+
+header {
+    display: flex;
+    border-bottom: 1px dashed #DCD7BA;
+    margin-bottom: 1rem;
+}
+
+/* header nav links */
 
 header nav {
     margin-left: auto;
@@ -63,24 +77,62 @@ header nav ul li {
     margin-inline: 1rem;
 }
 
-code {
-    color: #7AA89F;
-}
-
-table {
-    border-collapse: collapse;
-    margin: auto;
-}
+/* post summary above date */
 
 summary {
     margin-bottom: 1rem;
 }
 
-td {
-    padding: 0.5rem;
-    border-top: 1px solid #E6C384;
-    border-bottom: 1px solid #E6C384;
+/* tables */
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    border-top: 0.2rem solid #E6C384;
+    border-bottom: 0.2rem solid #E6C384;
 }
+
+th,
+td {
+    text-align: left;
+    padding: 0.5rem;
+}
+
+table > tbody > tr:first-child > td,
+table > tbody > tr:first-child > th {
+  border-top: 0.1rem solid #E6C384;
+}
+
+/* inline code and code blocks */
+
+code,
+pre,
+kbd {
+  font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+  font-size: 85%;
+  color: #7AA89F
+}
+
+pre {
+  padding: 1rem 1.4rem;
+  max-width: 100%;
+  overflow: auto;
+  border-radius: 4px;
+}
+
+pre code {
+  font-size: 95%;
+  position: relative;
+}
+
+/* tags near footer */
+
+.tags {
+    padding-top: 2rem;
+}
+
+/* footer */
 
 footer {
     display: flex;
@@ -92,9 +144,4 @@ footer {
 
 footer nav ul {
     padding-left: 0;
-}
-
-a {
-    color: #FFA066;
-    text-decoration: none;
 }
