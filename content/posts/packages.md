@@ -59,77 +59,13 @@ With macros for automatic bracing, vector notation, operators, derivatives, diff
 
 The problem most people have with `physics` is how it's been implemented. There's a great [thread](https://tex.stackexchange.com/questions/471532/alternatives-to-the-physics-package) on the $\TeX$ StackExchange explaining how `physics` abuses spacing using the `\xparse` macro and other issues present within the source code. This is not ideal, but also isn't a dealbreaker for me.
 
-Honestly, I never had any issues with spacing, but I did have other problems that led me to use other packages. When using the package, I would often run into small issues with macro names or properties not being to my liking. However, due to the design of `physics` going against the first point of the Unix philosophy, trying to add packages to fix these issues just led to overwriting macro definitions and even more problems. There's also the tendency of `physics` to rename macros already defined by $\LaTeX$ or `amsmath`, which I don't care for. Additionally, the `\qty` command is notorious for conflicting with `\siunitx`, which I happen to use regularly. Finally, the package hasn't been updated since 2012, I suppose because the authors see no need to fix the issues present.
+Honestly, I never had any issues with spacing, but I did have other problems that led me to use other packages. When using the package, I would often run into small issues with macro names or properties not being to my liking. However, due to the design of `physics` going against the first point of the Unix philosophy, trying to add packages to fix these issues just led to overwriting macro definitions and even more problems. There's also the tendency of `physics` to rename macros already defined by $\LaTeX$ or `amsmath`, which I don't care for. Additionally, the `\qty` command is notorious for conflicting with `siunitx`, which I happen to use regularly. Finally, the package hasn't been updated since 2012, I suppose because the authors see no need to fix the issues present.
 
 ### The Fix
 
 Reimplementing `physics` solely using other packages isn't really possible. There's a newer package named [`physics2`](https://ctan.org/pkg/physics2) that implements some of the features of `physics`, but it's by no means a replacement. Instead, I've used `derivative` to replace derivatives and differentials, `bm` to help with vector notation, and `braket` for Dirac notation, along with several custom commands to replace the parts of `physics` that I most often use.
 
-My preamble is shown below. I'm not totally happy with how the automated braces are being performed; ideally I'd like a single macro `\ab` that accepts `(`, `[`, `{`, and `|` as arguments. I'll get to that at some point.
-
-```latex
-\usepackage{bm, braket, derivative, mathtools}
-\usepackage{esint} % load after amsmath (mathtools) to prevent clashes
-
-% automated bracing
-\DeclarePairedDelimiter{\pr}{\lparen}{\rparen}        % parenthesis
-\DeclarePairedDelimiter{\bk}{\lbrack}{\rbrack}        % brackets
-\DeclarePairedDelimiter{\br}{\lbrace}{\rbrace}        % braces
-\DeclarePairedDelimiter{\vr}{\lvert}{\rvert}          % pipes
-\DeclarePairedDelimiter{\dvr}{\lVert}{\rVert}         % double pipes
-\newcommand{\abs}[1]{\vr*{#1}}                        % absolute value
-\newcommand{\norm}[1]{\dvr*{#1}}                      % norm
-\newcommand{\eval}[3]{\left.#1\right\rvert_{#2}^{#3}} % evaluation limits
-\newcommand{\order}[1]{\mathcal{O}\pr*{#1}}           % order of magnitude
-\newcommand{\comm}[2]{\bk*{#1, #2}}                   % commutator
-\newcommand{\acomm}[2]{\br*{#1, #2}}                  % anticommutator
-\newcommand{\pb}[2]{\br*{#1, #2}}                     % poisson bracket
-
-% vector notation
-\newcommand{\vb}[1]{\bm{#1}}                % bold vector
-\newcommand{\vu}[1]{\bm{\hat{#1}}}          % unit vector
-\newcommand{\vdot}{\bm{\cdot}}              % dot product
-\newcommand{\vcrs}{\bm{\times}}             % cross product
-\newcommand{\grad}[1]{\bm{\nabla} #1}       % gradient
-\newcommand{\divr}[1]{\bm{\nabla} \vdot #1} % divergence
-\newcommand{\curl}[1]{\bm{\nabla} \vcrs #1} % curl
-\newcommand{\slap}[1]{\nabla^2 #1}          % scalar laplacian
-\newcommand{\vlap}[1]{\bm{\nabla}^2 #1}     % vector laplacian
-\newcommand{\del}{\bm{\nabla}}              % del operator (bold nabla)
-
-% dirac notation
-\renewcommand{\bra}{\Bra}             % expanding bra as default
-\renewcommand{\ket}{\Ket}             % expanding ket as default
-\renewcommand{\braket}{\Braket}       % expanding bra-ket as default
-\newcommand{\ev}[1]{\braket{#1}}      % expectation value
-\newcommand{\ip}[2]{\braket{#1|#2}}   % inner product
-\newcommand{\op}[2]{\ket{#1}\bra{#2}} % outer product
-
-% matrices
-\newcommand{\pmx}[1]{\begin{pmatrix} #1 \end{pmatrix}} % parenthesis matrix
-\newcommand{\bmx}[1]{\begin{bmatrix} #1 \end{bmatrix}} % bracketed matrix
-\newcommand{\vmx}[1]{\begin{vmatrix} #1 \end{vmatrix}} % vertical matrix
-\newcommand{\cmx}[1]{\begin{Bmatrix} #1 \end{Bmatrix}} % curly matrix
-\newcommand{\tp}{^\mathrm{T}}                          % transpose
-\DeclareMathOperator{\tr}{tr}                          % trace
-
-% conjugates
-\newcommand{\cc}[1]{#1^*}    % complex conjugate
-\newcommand{\hc}[1]{#1^\dag} % hermitian conjugate
-
-% linear operators
-\newcommand{\vop}[1]{\bm{\hat{#1}}} % vector operator
-\newcommand{\sop}[1]{\hat{#1}}      % scalar operator
-
-% constants
-\newcommand{\img}{i} % imaginary unit
-\newcommand{\eul}{e} % euler's number
-
-% other
-\newcommand{\defn}{\coloneq}            % definition
-\newcommand{\subtxt}[1]{_{\mathrm{#1}}} % upright subscripts
-\DeclareRobustCommand\_{\ifmmode\expandafter\subtxt\else\textunderscore\fi}
-```
+I've written a very basic custom package called `natex` that defines some useful commands for various things. [Here's the link](https://github.com/amilkyboi/natex) if you're interested in using it. The custom commands are basic and should be easy to change based on your notational taste.
 
 ### Small Aside on Upright Math
 
