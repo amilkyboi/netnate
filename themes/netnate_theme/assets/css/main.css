@@ -16,6 +16,12 @@ body {
     min-height: 80vh;
 }
 
+/* paragraphs */
+
+p {
+  text-align: justify;
+}
+
 /* title headings */
 
 h1 {

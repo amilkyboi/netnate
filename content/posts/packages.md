@@ -1,6 +1,6 @@
 +++
 title = 'LaTeX Packages'
-date = 2022-08-02
+date = 2024-02-26
 draft = false
 tags = ['computing']
 summary = 'Some neat packages.'
@@ -42,47 +42,30 @@ Packages I use depending on the type and scale of the document itself.
 15. [`mhchem`](https://ctan.org/pkg/mhchem) - typesetting for chemical molecular formulae and equations
 16. [`minted`](https://ctan.org/pkg/minted) - syntax highlighting for all sorts of source code using the [Pygments](https://pygments.org) library
 17. [`multicol`](https://ctan.org/pkg/multicol) - can be used to have multiple columns of text, I primarily use it for 2-column lists
-18. [`pgfplots`](https://ctan.org/pkg/pgfplots) - draws high-quality function plots in normal or logarithmic scaling with a user-friendly interface
-19. [`siunitx`](https://ctan.org/pkg/siunitx) - a comprehensive SI unit package that includes macros for scientific notation
-20. [`tcolorbox`](https://ctan.org/pkg/tcolorbox) - nicely formatted and customizable boxes for examples and worked problems
-21. [`tikz`](https://ctan.org/pkg/tikz) - adds support for native diagram and graph creation
+18. [`natex`](https://github.com/amilkyboi/natex) - shameless plug, who knew I would use my own package
+19. [`pgfplots`](https://ctan.org/pkg/pgfplots) - draws high-quality function plots in normal or logarithmic scaling with a user-friendly interface
+20. [`siunitx`](https://ctan.org/pkg/siunitx) - a comprehensive SI unit package that includes macros for scientific notation
+21. [`tcolorbox`](https://ctan.org/pkg/tcolorbox) - nicely formatted and customizable boxes for examples and worked problems
+22. [`tikz`](https://ctan.org/pkg/tikz) - adds support for native diagram and graph creation
 
-## A Note on the [`physics`](https://ctan.org/pkg/physics) Package
+### An Aside on Upright Math
 
-For a while, I used the `physics` package for most of my mathematical typesetting. After using this package to write dozens of homeworks and reports over the past year, I have some thoughts on it.
+I have strong opinions on clear and proper notation, and I think everyone should. One oft-overlooked aspect of writing I've seen in books is the tendency to strictly use italicized characters in math mode. Besides the obvious aesthetic failings, this approach tends towards a lack of clarity due to ambiguities brought upon by the sole use of italics. Below, I explain where upright characters should be used to remedy these issues.
 
-### The Good
+The ground rules for using upright characters are as follows (list pulled from [here](https://tex.stackexchange.com/questions/33120/should-subscripts-in-math-mode-be-upright)):
 
-With macros for automatic bracing, vector notation, operators, derivatives, differentials, and Dirac notation, `physics` includes everything I have ever needed for typesetting higher level physics and engineering work (aside from more obscure integrals, which are handled by `esint`). It's easy to use, and still has the best macros for derivatives and differentials.
-
-### The Bad
-
-The problem most people have with `physics` is how it's been implemented. There's a great [thread](https://tex.stackexchange.com/questions/471532/alternatives-to-the-physics-package) on the $\TeX$ StackExchange explaining how `physics` abuses spacing using the `\xparse` macro and other issues present within the source code. This is not ideal, but also isn't a dealbreaker for me.
-
-Honestly, I never had any issues with spacing, but I did have other problems that led me to use other packages. When using the package, I would often run into small issues with macro names or properties not being to my liking. However, due to the design of `physics` going against the first point of the Unix philosophy, trying to add packages to fix these issues just led to overwriting macro definitions and even more problems. There's also the tendency of `physics` to rename macros already defined by $\LaTeX$ or `amsmath`, which I don't care for. Additionally, the `\qty` command is notorious for conflicting with `siunitx`, which I happen to use regularly. Finally, the package hasn't been updated since 2012, I suppose because the authors see no need to fix the issues present.
-
-### The Fix
-
-Reimplementing `physics` solely using other packages isn't really possible. There's a newer package named [`physics2`](https://ctan.org/pkg/physics2) that implements some of the features of `physics`, but it's by no means a replacement. Instead, I've used `derivative` to replace derivatives and differentials, `bm` to help with vector notation, and `braket` for Dirac notation, along with several custom commands to replace the parts of `physics` that I most often use.
-
-I've written a very basic custom package called `natex` that defines some useful commands for various things. [Here's the link](https://github.com/amilkyboi/natex) if you're interested in using it. The custom commands are basic and should be easy to change based on your notational taste.
-
-### Small Aside on Upright Math
-
-I have a neat little upright subscript command that I found on StackExchange at some point and use regularly. Many authors have a tendency to only use italicized characters in math mode. My rules for using upright characters are thus (list pulled from [here](https://tex.stackexchange.com/questions/33120/should-subscripts-in-math-mode-be-upright)):
-
-- upright function names ($\sin{x}$, $\cos{x}$, $\ln{x}$, etc.)
-- upright differentials ($\mathrm{d}x$ and $\int x \ \mathrm{d}x$)
-- upright dimensionless numbers ($\mathrm{Re}$, $\mathrm{Pr}$, etc.)
+- upright function names $(\sin{x}$, $\cos{x}$, $\ln{x}$, etc.$)$
+- upright differentials $(\mathrm{d}x$ and $\int x \ \mathrm{d}x)$
+- upright dimensionless numbers $(\mathrm{Re}$, $\mathrm{Pr}$, etc.$)$
 - upright descriptive text
 - upright descriptive variable indices (that don't correspond to other variables)
 
 I think the first bullet point is clear enough, and is generally well followed. After all, most commonly used functions are already defined as built-in macros within $\LaTeX$, so there's no reason *not* to use them.
 
-Typesetting differentials is mainly a matter of personal taste, but I find upright differentials to be more clear (and more correct, since they're operators, but I won't go there). Most mathematicians still prefer the italic text, and most existing material still uses this form. In newer texts, I have started seeing a marked increase in the upright variation, so it seems to be catching on, at least in the physics and engineering communities.
+Typesetting differentials is mainly a matter of personal taste, but I find upright differentials to be more clear. From my cursory research, it seems like most mathematicians still prefer the italic text. Older textbooks and papers almost exclusively use italics as well. In newer texts, I have started seeing a marked increase in the upright variation, so it seems to be catching on.
 
 Upright dimensionless numbers are more important. For instance, using $Re$ instead of $\mathrm{Re}$ to denote the Reynold's number is unclear, since $R$ and $e$ could easily be interpreted as two separate variables. In most cases, the meaning will be clear from context, but it's always better to adopt a standard and follow it for the sake of consistency. Descriptive text falls into the same category.
 
-Variable indices are the most tricky to nail down. When the subscript is descriptive, like $a_\mathrm{profile}$, it should be upright. For index counters as in $\sum_i x_i$, italic is correct. Technically, according to ISO and NIST, one-letter subscripts that refer to a name, such as $k_\mathrm{B}$ for the Boltzmann constant, or $m_\mathrm{e}$ for the mass of an electron, should be upright. However, the American Physical Society recommends all single-letter subscripts to be italic. I've seen both in books and in papers, but I prefer the APS guidelines.
+Variable indices are the most tricky to nail down. When the subscript is descriptive, like $a_\mathrm{profile}$, it should be upright. For index counters as in $\sum_i x_i$, italic is correct. Technically, according to ISO and NIST, one-letter subscripts that refer to a name, such as $k_\mathrm{B}$ for the Boltzmann constant, or $m_\mathrm{e}$ for the mass of an electron, should be upright. However, the American Physical Society recommends all single-letter subscripts to be italic. I've seen both in books and in papers, but I prefer the APS guidelines. To make upright subscripts less of a pain, I found a neat little command on StackExchange at some point, which I've included in [my package](/posts/natex).
 
-If you're following the 'official' ISO standards, even the imaginary unit $i$, Euler's number $e$, and $\pi$ should be upright. This practice is absolutely atrocious and I don't recommend following it.
+By the way, if you're following the official ISO standards, even the imaginary unit $i$, Euler's number $e$, and $\pi$ should be upright. This practice is absolutely atrocious and I don't recommend following it.
