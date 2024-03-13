@@ -120,7 +120,13 @@ kbd {
   font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
     monospace;
   font-size: 85%;
-  color: #7AA89F
+  color: #7AA89F;
+}
+
+p code {
+    background-color: #282828;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
 }
 
 pre {
