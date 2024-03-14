@@ -3,21 +3,6 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 
-{{/*  katex  */}}
-{{ if .Params.math }}
-    {{ partial "math.html" . }}
+{{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
 {{ end }}
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-            delimiters: [
-                // default
-                {left: "$$", right: "$$", display: true},
-                // inline
-                {left: "$", right: "$", display: false}
-            ]
-        });
-    });
-</script>
-

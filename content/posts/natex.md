@@ -4,8 +4,8 @@ date = 2024-02-28
 draft = false
 tags = ['computing']
 summary = 'A custom LaTeX package.'
-
-math = true
+[params]
+    math = true
 +++
 
 I love wasting time trying to perfect my notation when I'm writing things in $\LaTeX$. In fact, I would call it a hobby at this point, which is somewhat concerning. Before describing why I made a package and what it offers, I'll begin with an introduction to macros and packages for those unfamiliar.
