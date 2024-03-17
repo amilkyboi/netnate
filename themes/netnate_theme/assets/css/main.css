@@ -192,6 +192,10 @@ blockquote p {
     margin-bottom: 0rem;
 }
 
+blockquote ul {
+    margin-bottom: 0rem;
+}
+
 /* notices */
 
 .notice {

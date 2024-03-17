@@ -6,11 +6,11 @@
 {{ if eq $type "note" }}
     {{ $color = "#7FB4CA" }}
 {{ else if eq $type "info" }}
-    {{ $color = "#7AA89F" }}
+    {{ $color = "#E6C384" }}
 {{ else if eq $type "warning" }}
     {{ $color = "#E82424" }}
 {{ else if eq $type "tip" }}
-    {{ $color = "#E6C384" }}
+    {{ $color = "#98BB6C" }}
 {{ end }}
 
 <blockquote class="notice" style="border-left: 0.5rem solid {{ $color }};">

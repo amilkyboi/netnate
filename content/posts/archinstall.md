@@ -58,6 +58,10 @@ Plug in a USB flash drive and launch Rufus. Select the ISO downloaded earlier an
 
 ### 1.4 Boot the live environment
 
+{{< notice note >}}
+Arch Linux installation images do not support Secure Boot. You will need to disable Secure Boot to boot the installation medium. If desired, Secure Boot can be set up after completing the installation.
+{{< /notice >}}
+
 Boot to the BIOS settings on the target machine. Find Secure Boot and disable it, as this feature will prevent booting from an external device if this step is not performed. While in the BIOS, hyper-threading and CPU virtualization should also be enabled. Save the changed settings and exit the BIOS.
 
 Plug the removable drive into the target machine and power it on. Enter the startup interrupt menu and proceed to the boot selection menu. Select the removable drive as the boot device. After arriving at the GNU GRUB menu, select `Arch Linux install medium (x86_64, UEFI)`. You're loaded in once the Zsh tty prompt appears:
@@ -109,6 +113,10 @@ Some number of network devices should appear, the amount and type dependent upon
 ```zsh
 ping archlinux.org
 ```
+
+{{< notice note >}}
+In the installation image, `systemd-networkd`, `systemd-resolved`, `iwd` and `ModemManager` are preconfigured and enabled by default. That will not be the case for the installed system.
+{{< /notice >}}
 
 #### Ethernet
 
@@ -191,6 +199,10 @@ fdisk -l
 
 Remove old partitions.
 
+{{< notice tip >}}
+Check that your NVMe drives and Advanced Format hard disk drives are using the optimal logical sector size before partitioning.
+{{< /notice >}}
+
 Create a new GUID Partition Table (GPT).
 
 Modify the partition tables.
@@ -218,25 +230,29 @@ fdisk /dev/selected_disk
 
 ### 1.10 Format the partitions
 
-boot
+Boot
+
+{{< notice warning >}}
+Only format the EFI system partition if you created it during the partitioning step. If there already was an EFI system partition on disk beforehand, reformatting it can destroy the boot loaders of other installed operating systems.
+{{< /notice >}}
 
 ```zsh
 mkfs.fat -F 32 /dev/efi_partition
 ```
 
-swap
+Swap
 
 ```zsh
 mkswap /dev/swap_partition
 ```
 
-root
+Root
 
 ```zsh
 mkfs.ext4 /dev/root_partition
 ```
 
-home
+Home
 
 ```zsh
 mkfs.ext4 /dev/home_partition
@@ -244,25 +260,29 @@ mkfs.ext4 /dev/home_partition
 
 ### 1.11 Mount the file systems
 
-boot
+Boot
+
+{{< notice tip >}}
+Run `mount(8)` with the `--mkdir` option to create the specified mount point. Alternatively, create it using `mkdir(1)` beforehand.
+{{< /notice >}}
 
 ```zsh
 mount --mkdir /dev/efi_partition /mnt/boot
 ```
 
-swap
+Swap
 
 ```zsh
 swapon /dev/swap_partition
 ```
 
-root
+Root
 
 ```zsh
 mount /dev/root_partition /mnt
 ```
 
-home
+Home
 
 ```zsh
 mount --mkdir /dev/home_partition /mnt/home
@@ -301,30 +321,160 @@ The following lines will be listed under the `[options]` section. Uncomment them
 
 ### 2.2 Install essential packages
 
-The following lines will be listed under the `[options]` section. Uncomment them to enable colors (for increased clarity when downloading and installing packages) and parallel downloads:
-
 {{< notice note >}}
 No software or configuration (except for `/etc/pacman.d/mirrorlist`) gets carried over from the live environment to the installed system.
 {{< /notice >}}
+
+Use the `pacstrap(8)` script to initialize an empty `pacman` keyring into the `/mnt` target, followed by installing the `base` package, Linux kernel, and firmware for common hardware:
+
+```zsh
+pacstrap -K /mnt base linux linux-firmware
+```
+
+{{< notice tip >}}
+
+- You can substitute `linux` with a kernel package of your choice, or you could omit it entirely when installing in a container
+- You could omit the installation of the firmware package when installing in a virtual machine or container
+{{< /notice >}}
+
+The `base` package does not include all tools from the live installation, so installing more packages may be necessary for a fully functional base system.
 
 ## 3 Configure the system
 
 ### 3.1 Fstab
 
+Generate an `fstab` file (use `-U` or `-L` to define by UUID or labels, respectively):
+
+```zsh
+genfstab -U /mnt >> /mnt/etc/fstab
+```
+
+Check the resulting file:
+
+```zsh
+vim /mnt/etc/fstab
+```
+
+It should read something like:
+
+| Mount point | Partition | Type |
+| ----------- | --------- | ---- |
+| `/boot/efi` | sda1      | vfat |
+| `[SWAP]`    | sda2      | swap |
+| `/`         | sda3      | ext4 |
+| `/home`     | sda4      | ext4 |
+
 ### 3.2 Chroot
+
+Change root into the new system:
+
+```zsh
+arch-chroot /mnt
+```
 
 ### 3.3 Time
 
+Set the time zone:
+
+```bash
+ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+```
+
+Run `hwclock(8)` to generate `/etc/adjtime`:
+
+```bash
+hwclock --systohc
+```
+
+This command assumes the hardware clock is set to UTC.
+
 ### 3.4 Localization
 
+Edit `/etc/locale.gen` and uncomment `en_US.UTF-8 UTF-8` and other needed UTF-8 locales. Generate the locales by running:
+
+```bash
+locale-gen
+```
+
+Create the `locale.conf(5)` file, and set the `LANG` variable accordingly:
+
+```bash
+/etc/locale.conf
+----------------
+LANG=en_US.UTF-8
+```
+
+If you set the console keyboard layout, make the changes persistent in `vconsole.conf(5)`:
+
+```bash
+/etc/vconsole.conf
+------------------
+KEYMAP=de-latin1
+```
+
 ### 3.5 Network configuration
+
+Create the hostname file:
+
+```bash
+/etc/hostname
+-------------
+yourhostname
+```
+
+Complete the network configuration for the newly installed environment. That may include installing suitable network management software, configuring it if necessary and enabling its `systemd` unit so that it starts at boot.
 
 ### 3.6 Initramfs
 
 ### 3.7 Root password
 
+Set the root password:
+
+```bash
+passwd
+```
+
 ### 3.8 Boot loader
 
+Install the GRUB boot loader and efi boot manager:
+
+```bash
+pacman -S grub efibootmgr
+```
+
+Execute the following command to install the GRUB EFI application `grubx64.efi` to `/boot/efi/EFI/GRUB/` and install its modules to `/boot/grub/x86_64-efi/`:
+
+```bash
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+```
+
+Use the `grub-mkconfig` tool to generate `/boot/grub/grub.cfg`:
+
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+To acquire updated microcode, depending on the processor, install one of the following packages:
+
+```bash
+pacman -S ...
+```
+
+- `amd-ucode` for AMD processors,
+- `intel-ucode` for Intel processors.
+
+GRUB will automatically detect the microcode update and configure itself appropriately. After installing the microcode package, regenerate the GRUB configuration to activate loading the microcode update by running:
+
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 ## 4 Reboot
+
+Exit the chroot environment by typing `exit`.
+
+Manually unmount all the partitions with `umount -R /mnt`: this allows noticing any "busy" partitions, and finding the cause with `fuser(1)`.
+
+Finally, restart the machine by typing `reboot`: any partitions still mounted will be automatically unmounted by systemd. Remember to remove the installation medium and then login into the new system with the root account.
 
 ## 5 Post-installation
