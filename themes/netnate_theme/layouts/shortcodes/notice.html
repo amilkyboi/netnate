@@ -1,0 +1,24 @@
+{{ $type := .Get 0 | default "note" }}
+{{ $raw := (markdownify .Inner | chomp) }}
+{{ $block := findRE "(?is)^<(?:address|article|aside|blockquote|canvas|dd|div|dl|dt|fieldset|figcaption|figure|footer|form|h(?:1|2|3|4|5|6)|header|hgroup|hr|li|main|nav|noscript|ol|output|p|pre|section|table|tfoot|ul|video)\\b" $raw 1 }}
+{{ $color := "" }}
+
+{{ if eq $type "note" }}
+    {{ $color = "#7FB4CA" }}
+{{ else if eq $type "info" }}
+    {{ $color = "#7AA89F" }}
+{{ else if eq $type "warning" }}
+    {{ $color = "#E82424" }}
+{{ else if eq $type "tip" }}
+    {{ $color = "#E6C384" }}
+{{ end }}
+
+<blockquote class="notice" style="border-left: 0.5rem solid {{ $color }};">
+    <div class="notice-title" style="color: {{ $color }};">
+        <svg class="notice-icon" style="fill: {{ $color }}">
+            {{ printf "icons/%s.svg" $type | readFile | safeHTML }}
+        </svg>
+        {{ $type | title }}
+    </div>
+    {{ if or $block (not $raw) }}{{ $raw }}{{ else }}<p>{{ $raw }}</p>{{ end }}
+</blockquote>

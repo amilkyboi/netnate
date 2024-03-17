@@ -1,5 +1,5 @@
 +++
-title = 'LaTeX Packages'
+title = 'packages'
 date = 2024-02-26
 draft = false
 tags = ['computing']

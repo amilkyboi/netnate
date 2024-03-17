@@ -1,6 +1,6 @@
 +++
-title = 'About'
+title = 'about'
 type = 'about'
 +++
 
-Hi.
+Coming soon.

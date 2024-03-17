@@ -1,5 +1,5 @@
 +++
-title = 'Posts'
+title = 'posts'
 draft = false
 +++
 

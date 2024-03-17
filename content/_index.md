@@ -1,6 +1,6 @@
 +++
-title = 'Home'
+title = 'home'
 draft = false
 +++
 
-My website.
+Welcome.

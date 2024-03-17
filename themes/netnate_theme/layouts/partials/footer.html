@@ -5,13 +5,13 @@
     {{ $currentPage := . }}
     {{ $currentPageParent := $currentPage.Parent }}
     {{ with $currentPage.Parent }}
-        {{ if ne .Title "Home" }}
-            <li><a href="{{ .RelPermalink }}">{{ lower .Title }}</a>/</li>
+        {{ if ne .Title "home" }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>/</li>
         {{ end }}
     {{ end }}
-    {{ if ne .Title "Home" }}
+    {{ if ne .Title "home" }}
         {{ $s := $currentPage.Title }}
-        <li><a href="{{ $currentPage.RelPermalink }}">{{ lower ( replace $s " " "_" ) }}</a></li>
+        <li><a href="{{ $currentPage.RelPermalink }}">{{ replace $s " " "_" }}</a></li>
     {{ end }}
 </ul>
 </nav>
