@@ -6,7 +6,13 @@ tags = ['computing']
 summary = 'Like archinstall, but not.'
 +++
 
-Many parts of this writeup are taken verbatim from the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide). Always consult the official guide for the most up-to-date information. This guide attempts to consolidate multiple wiki pages into a single source for a more cohesive installation process. Note that the steps listed in the pre-installation section are directed at Windows users.
+Many parts of this writeup are taken verbatim from the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide). The sections listed here are in 1:1 accordance with those on the wiki, and links to the wiki are provided often.
+
+{{< notice info >}}
+Always consult the official wiki for the most up-to-date information.
+{{< /notice >}}
+
+I have attempted to consolidate multiple wiki pages into a single source for a more cohesive installation process. The steps listed in the pre-installation section are directed at Windows users unfamiliar with the processes of torrenting files, verifying digital signatures, and preparing ISO files. Additionally, I've built upon the main installation by getting the system into a useable state.
 
 ## 1 Pre-installation
 
@@ -24,7 +30,7 @@ Next, visit the Arch Linux [download](https://archlinux.org/download/) page and 
 
 ### 1.2 Verify signature
 
-Before using the Arch Linux ISO, the signature attached to the file must be verified using GNU Privacy Guard (GPG). In a PowerShell instance, install `gpg` via `winget`:
+Before using the Arch Linux ISO, the signature attached to the file must be verified using [GNU Privacy Guard](https://wiki.archlinux.org/title/GnuPG) (GPG). In a PowerShell instance, install `gpg` via `winget`:
 
 ```powershell
 winget install GnuPG.GnuPG
@@ -52,7 +58,7 @@ To be extra cautious, visit the [developers](https://archlinux.org/people/develo
 
 ### 1.3 Prepare an installation medium
 
-For a hardware installation, dowload [Rufus](https://rufus.ie/en/) to create a bootable USB flash drive. After downloading, right-click the executable and navigate to the `Digital Signatures` tab. The signed name should state "Akeo Consulting."
+For a hardware installation, dowload [Rufus](https://rufus.ie/en/) to create a bootable USB flash drive. After downloading, right-click the executable, go to `Properties`, and navigate to the `Digital Signatures` tab. The signed name should state "Akeo Consulting."
 
 Plug in a USB flash drive and launch Rufus. Select the ISO downloaded earlier and change the partition scheme to `GPT`. The target system should automatically switch to `UEFI (non CSM)`. Name the volume and leave the file system as `Large FAT32` with a cluster size of `32 kB`. Click `START` to write the ISO to the removable drive. If a pop-up is encountered, continue with writing the disk in ISO image mode. Rufus can be closed when the status bar reads `READY`. Eject the drive and physically remove it.
 
@@ -64,7 +70,7 @@ Arch Linux installation images do not support Secure Boot. You will need to disa
 
 Boot to the BIOS settings on the target machine. Find Secure Boot and disable it, as this feature will prevent booting from an external device if this step is not performed. While in the BIOS, hyper-threading and CPU virtualization should also be enabled. Save the changed settings and exit the BIOS.
 
-Plug the removable drive into the target machine and power it on. Enter the startup interrupt menu and proceed to the boot selection menu. Select the removable drive as the boot device. After arriving at the GNU GRUB menu, select `Arch Linux install medium (x86_64, UEFI)`. You're loaded in once the Zsh tty prompt appears:
+Plug the removable drive into the target machine and power it on. Enter the startup interrupt menu and proceed to the boot selection menu. Select the removable drive as the boot device. After arriving at the GNU GRUB menu, select `Arch Linux install medium (x86_64, UEFI)`. You're loaded in once the [Zsh](https://wiki.archlinux.org/title/Zsh) tty prompt appears:
 
 ```zsh
 root@archiso ~ #
@@ -72,19 +78,19 @@ root@archiso ~ #
 
 ### 1.5 Set the console keyboard layout and font
 
-For users based in the United States, these settings can remain unchanged as the default console keymap is US. The available layouts can be listed with:
+For users based in the United States, these settings can remain unchanged as the default [console keymap](https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration) is US. The available layouts can be listed with:
 
 ```zsh
 localectl list-keymaps
 ```
 
-To set the keyboard layout, pass its name to `loadkeys(1)`. For example, to set a German keyboard layout:
+To set the keyboard layout, pass its name to [`loadkeys(1)`](https://man.archlinux.org/man/loadkeys.1). For example, to set a German keyboard layout:
 
 ```zsh
 loadkeys de-latin1
 ```
 
-Console fonts are located in `/usr/share/kbd/consolefonts/` and can likewise be set with `setfont(8)` omitting the path and file extension. For example, to use one of the largest fonts suitable for HiDPI screens, run:
+[Console fonts](https://wiki.archlinux.org/title/Console_fonts) are located in `/usr/share/kbd/consolefonts/` and can likewise be set with [`setfont(8)`](https://man.archlinux.org/man/setfont.8) omitting the path and file extension. For example, to use one of the largest fonts suitable for [HiDPI](https://wiki.archlinux.org/title/HiDPI#Linux_console_(tty)) screens, run:
 
 ```zsh
 setfont ter-132b
@@ -98,11 +104,11 @@ Verify the boot mode by checking the UEFI bitness:
 cat /sys/firmware/efi/fw_platform_size
 ```
 
-If the command returns `64`, then the system is booted in UEFI mode and has a 64-bit x64 UEFI. If the command returns 32, then system is booted in UEFI mode and has a 32-bit IA32 UEFI; while this is supported, it will limit the boot loader choice to systemd-boot. If the file does not exist, the system may be booted in BIOS (or CSM) mode. If the system did not boot in the mode you desired (UEFI vs BIOS), refer to your motherboard's manual.
+If the command returns `64`, then the system is booted in UEFI mode and has a 64-bit x64 UEFI. If the command returns 32, then system is booted in UEFI mode and has a 32-bit IA32 UEFI; while this is supported, it will limit the boot loader choice to systemd-boot. If the file does not exist, the system may be booted in [BIOS](https://en.wikipedia.org/wiki/BIOS) (or [CSM](https://en.wikipedia.org/wiki/Compatibility_Support_Module)) mode. If the system did not boot in the mode you desired (UEFI vs BIOS), refer to your motherboard's manual.
 
 ### 1.7 Connect to the internet
 
-Ensure that your network interface is listed and enabled by typing:
+Ensure that your [network interface](https://wiki.archlinux.org/title/Network_interface) is listed and enabled by typing:
 
 ```zsh
 iplink
@@ -115,7 +121,7 @@ ping archlinux.org
 ```
 
 {{< notice note >}}
-In the installation image, `systemd-networkd`, `systemd-resolved`, `iwd` and `ModemManager` are preconfigured and enabled by default. That will not be the case for the installed system.
+In the installation image, [`systemd-networkd`](https://wiki.archlinux.org/title/Systemd-networkd), [`systemd-resolved`](https://wiki.archlinux.org/title/Systemd-resolved), [`iwd`](https://wiki.archlinux.org/title/Iwd) and [`ModemManager`](https://wiki.archlinux.org/title/ModemManager) are preconfigured and enabled by default. That will not be the case for the installed system.
 {{< /notice >}}
 
 #### Ethernet
@@ -170,7 +176,7 @@ and enter the password for the network. Finally, exit the `iwd` prompt by typing
 
 ### 1.8 Update the system clock
 
-In the live environment, `systemd-timesyncd` is enabled by default and time will be synced automatically once a connection to the internet is established. Use `timedatectl(1)` to ensure the system clock is accurate:
+In the live environment, [`systemd-timesyncd`](https://wiki.archlinux.org/title/Systemd-timesyncd) is enabled by default and time will be synced automatically once a connection to the internet is established. Use [`timedatectl(1)`](https://man.archlinux.org/man/timedatectl.1) to ensure the system clock is accurate:
 
 ```zsh
 timedatectl
@@ -184,32 +190,9 @@ timedatectl set-ntp true
 
 ### 1.9 Partition the disks
 
-Resources:
+Before getting into the details of disk partitioning, some choices must be made about the overall file structure of the system.
 
-- [read about fdisk](https://wiki.archlinux.org/title/Fdisk)
-- [read about partitioning](https://wiki.archlinux.org/title/Partitioning)
-- [read about efi](https://wiki.archlinux.org/title/EFI_system_partition)
-- [read about swap](https://wiki.archlinux.org/title/Swap)
-
-Identify the devices recognized by the live system using the `fdisk` utility.
-
-```zsh
-fdisk -l
-```
-
-Remove old partitions.
-
-{{< notice tip >}}
-Check that your NVMe drives and Advanced Format hard disk drives are using the optimal logical sector size before partitioning.
-{{< /notice >}}
-
-Create a new GUID Partition Table (GPT).
-
-Modify the partition tables.
-
-```zsh
-fdisk /dev/selected_disk
-```
+The official wiki suggests using a single root partition for simplicity.
 
 #### Single root partition
 
@@ -227,6 +210,33 @@ fdisk /dev/selected_disk
 | `[SWAP]`    | `/dev/swap_partition` | Linux swap          | 0657FD6D-A4AB-43C4-84E5-0933C84B4F4F | At least 4 GiB          |
 | `/mnt`      | `/dev/root_partition` | Linux root (x86-64) | 4F68BCE3-E8CD-4DB1-96E7-FBCAF984B709 | At least 23–32 GiB      |
 | `/mnt/home` | `/dev/home_partition` | Linux home          | 933AC7E1-2EB4-4F13-B844-0E14E2AEF915 | Remainder of the device |
+
+When recognized by the live system, disks are assigned to a [block device](https://wiki.archlinux.org/title/Block_device) such as `/dev/sda`, `/dev/nvme0n1` or `/dev/mmcblk0`. To identify these devices, use [`lsblk`](https://wiki.archlinux.org/title/Lsblk) or [`fdisk`](https://wiki.archlinux.org/title/Fdisk):
+
+```zsh
+fdisk -l
+```
+
+Remove old partitions.
+
+{{< notice tip >}}
+Check that your NVMe drives and Advanced Format hard disk drives are using the [optimal logical sector size](https://wiki.archlinux.org/title/Advanced_Format) before partitioning.
+{{< /notice >}}
+
+The following [partitions](https://wiki.archlinux.org/title/Partition) are required for a chosen device:
+
+- One partition for the [root directory](https://en.wikipedia.org/wiki/Root_directory) `/`.
+- For booting in [UEFI](https://wiki.archlinux.org/title/UEFI) mode: an [EFI system partition](https://wiki.archlinux.org/title/EFI_system_partition).
+
+If you want to create any stacked block devices for [LVM](https://wiki.archlinux.org/title/Install_Arch_Linux_on_LVM), [system encryption](https://wiki.archlinux.org/title/Dm-crypt) or [RAID](https://wiki.archlinux.org/title/RAID), do it now.
+
+Use a [partitioning tool](https://wiki.archlinux.org/title/Partitioning#Partitioning_tools) like `fdisk` to modify partition tables. For example:
+
+Create a new GUID Partition Table (GPT).
+
+```zsh
+fdisk /dev/selected_disk
+```
 
 ### 1.10 Format the partitions
 
