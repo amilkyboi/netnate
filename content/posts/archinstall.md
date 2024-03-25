@@ -130,7 +130,7 @@ Ethernet connectivity works out of the box. Simply plug in the ethernet cable.
 
 #### Wireless
 
-For wireless connectivity, enter the `iwctl` utility:
+For wireless connectivity, enter the [`iwctl`](https://wiki.archlinux.org/title/Iwctl) utility:
 
 ```zsh
 iwctl
@@ -240,7 +240,7 @@ fdisk /dev/selected_disk
 
 ### 1.10 Format the partitions
 
-Boot
+[Format](https://wiki.archlinux.org/title/EFI_system_partition#Format_the_partition) the EFI system partition to FAT32 using [`mkfs.fat(8)`](https://man.archlinux.org/man/mkfs.fat.8).
 
 {{< notice warning >}}
 Only format the EFI system partition if you created it during the partitioning step. If there already was an EFI system partition on disk beforehand, reformatting it can destroy the boot loaders of other installed operating systems.
@@ -250,19 +250,19 @@ Only format the EFI system partition if you created it during the partitioning s
 mkfs.fat -F 32 /dev/efi_partition
 ```
 
-Swap
+If you created a partition for [swap](https://wiki.archlinux.org/title/Swap), initialize it with [`mkswap(8)`](https://man.archlinux.org/man/mkswap.8):
 
 ```zsh
 mkswap /dev/swap_partition
 ```
 
-Root
+Create an [Ext4](https://wiki.archlinux.org/title/Ext4) file system on the root partition:
 
 ```zsh
 mkfs.ext4 /dev/root_partition
 ```
 
-Home
+Same with home:
 
 ```zsh
 mkfs.ext4 /dev/home_partition
@@ -270,29 +270,29 @@ mkfs.ext4 /dev/home_partition
 
 ### 1.11 Mount the file systems
 
-Boot
+[Mount](https://wiki.archlinux.org/title/Mount) the boot partition:
 
 {{< notice tip >}}
-Run `mount(8)` with the `--mkdir` option to create the specified mount point. Alternatively, create it using `mkdir(1)` beforehand.
+Run [`mount(8)`](https://man.archlinux.org/man/mount.8) with the `--mkdir` option to create the specified mount point. Alternatively, create it using [`mkdir(1)`](https://man.archlinux.org/man/mkdir.1) beforehand.
 {{< /notice >}}
 
 ```zsh
 mount --mkdir /dev/efi_partition /mnt/boot
 ```
 
-Swap
+Enable the swap partition with [`swapon(8)`](https://man.archlinux.org/man/swapon.8):
 
 ```zsh
 swapon /dev/swap_partition
 ```
 
-Root
+Root:
 
 ```zsh
 mount /dev/root_partition /mnt
 ```
 
-Home
+Home:
 
 ```zsh
 mount --mkdir /dev/home_partition /mnt/home
@@ -302,7 +302,9 @@ mount --mkdir /dev/home_partition /mnt/home
 
 ### 2.1 Select the mirrors
 
-Before installing any packages with `pacman`, it is beneficial to select a list of mirrors optimized for geographic locality and download speed. First, back up the current mirrorlist in case of bad overwrites:
+Before installing any packages with `pacman`, it is beneficial to select a list of [mirror servers](https://wiki.archlinux.org/title/Mirrors) optimized for geographic locality and download speed. On the live system, after connecting to the internet, [reflector](https://wiki.archlinux.org/title/Reflector) updates the mirror list by choosing 20 most recently synchronized HTTPS mirrors and sorting them by download rate. However, I'd like to show the process manually.
+
+First, back up the current mirrorlist in case of bad overwrites:
 
 ```zsh
 cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
@@ -335,7 +337,7 @@ The following lines will be listed under the `[options]` section. Uncomment them
 No software or configuration (except for `/etc/pacman.d/mirrorlist`) gets carried over from the live environment to the installed system.
 {{< /notice >}}
 
-Use the `pacstrap(8)` script to initialize an empty `pacman` keyring into the `/mnt` target, followed by installing the `base` package, Linux kernel, and firmware for common hardware:
+Use the [`pacstrap(8)`](https://man.archlinux.org/man/pacstrap.8) script to initialize an empty `pacman` keyring into the `/mnt` target, followed by installing the [`base`](https://archlinux.org/packages/?name=base) package, Linux [kernel](https://wiki.archlinux.org/title/Kernel), and firmware for common hardware:
 
 ```zsh
 pacstrap -K /mnt base linux linux-firmware
@@ -343,7 +345,7 @@ pacstrap -K /mnt base linux linux-firmware
 
 {{< notice tip >}}
 
-- You can substitute `linux` with a kernel package of your choice, or you could omit it entirely when installing in a container
+- You can substitute [`linux`](https://archlinux.org/packages/?name=linux) with a kernel package of your choice, or you could omit it entirely when installing in a [container](https://en.wikipedia.org/wiki/Container_(virtualization))
 - You could omit the installation of the firmware package when installing in a virtual machine or container
 {{< /notice >}}
 
@@ -353,7 +355,7 @@ The `base` package does not include all tools from the live installation, so ins
 
 ### 3.1 Fstab
 
-Generate an `fstab` file (use `-U` or `-L` to define by UUID or labels, respectively):
+Generate an [`fstab`](https://wiki.archlinux.org/title/Fstab) file (use `-U` or `-L` to define by [UUID](https://wiki.archlinux.org/title/UUID) or labels, respectively):
 
 ```zsh
 genfstab -U /mnt >> /mnt/etc/fstab
@@ -376,7 +378,7 @@ It should read something like:
 
 ### 3.2 Chroot
 
-Change root into the new system:
+[Change root](https://wiki.archlinux.org/title/Change_root) into the new system:
 
 ```zsh
 arch-chroot /mnt
@@ -384,29 +386,29 @@ arch-chroot /mnt
 
 ### 3.3 Time
 
-Set the time zone:
+Set the [time zone](https://wiki.archlinux.org/title/Time_zone):
 
 ```bash
 ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
 ```
 
-Run `hwclock(8)` to generate `/etc/adjtime`:
+Run [`hwclock(8)`](https://man.archlinux.org/man/hwclock.8) to generate `/etc/adjtime`:
 
 ```bash
 hwclock --systohc
 ```
 
-This command assumes the hardware clock is set to UTC.
+This command assumes the hardware clock is set to UTC. To prevent clock drift and ensure accurate time, set up [time synchronization](https://wiki.archlinux.org/title/Time_synchronization) using a [Network Time Protocol](https://en.wikipedia.org/wiki/Network_Time_Protocol) (NTP) client such as [systemd-timesyncd](https://wiki.archlinux.org/title/Systemd-timesyncd).
 
 ### 3.4 Localization
 
-Edit `/etc/locale.gen` and uncomment `en_US.UTF-8 UTF-8` and other needed UTF-8 locales. Generate the locales by running:
+Edit `/etc/locale.gen` and uncomment `en_US.UTF-8 UTF-8` and other needed UTF-8 [locales](https://wiki.archlinux.org/title/Locale). Generate the locales by running:
 
 ```bash
 locale-gen
 ```
 
-Create the `locale.conf(5)` file, and set the `LANG` variable accordingly:
+Create the [`locale.conf(5)`](https://man.archlinux.org/man/locale.conf.5) file, and [set the `LANG` variable](https://wiki.archlinux.org/title/Locale#Setting_the_system_locale) accordingly:
 
 ```bash
 /etc/locale.conf
@@ -414,7 +416,7 @@ Create the `locale.conf(5)` file, and set the `LANG` variable accordingly:
 LANG=en_US.UTF-8
 ```
 
-If you set the console keyboard layout, make the changes persistent in `vconsole.conf(5)`:
+If you [set the console keyboard layout](https://wiki.archlinux.org/title/Installation_guide#Set_the_console_keyboard_layout_and_font), make the changes persistent in [`vconsole.conf(5)`](https://man.archlinux.org/man/vconsole.conf.5):
 
 ```bash
 /etc/vconsole.conf
@@ -424,7 +426,7 @@ KEYMAP=de-latin1
 
 ### 3.5 Network configuration
 
-Create the hostname file:
+Create the [hostname](https://wiki.archlinux.org/title/Hostname) file:
 
 ```bash
 /etc/hostname
@@ -432,13 +434,13 @@ Create the hostname file:
 yourhostname
 ```
 
-Complete the network configuration for the newly installed environment. That may include installing suitable network management software, configuring it if necessary and enabling its `systemd` unit so that it starts at boot.
+Complete the [network configuration](https://wiki.archlinux.org/title/Network_configuration) for the newly installed environment. That may include installing suitable [network management](https://wiki.archlinux.org/title/Network_management) software, configuring it if necessary and enabling its `systemd` unit so that it starts at boot.
 
 ### 3.6 Initramfs
 
 ### 3.7 Root password
 
-Set the root password:
+Set the root [password](https://wiki.archlinux.org/title/Password):
 
 ```bash
 passwd
@@ -446,7 +448,7 @@ passwd
 
 ### 3.8 Boot loader
 
-Install the GRUB boot loader and efi boot manager:
+Install the GRUB [boot loader](https://wiki.archlinux.org/title/Boot_loader) and efi boot manager:
 
 ```bash
 pacman -S grub efibootmgr
@@ -464,7 +466,7 @@ Use the `grub-mkconfig` tool to generate `/boot/grub/grub.cfg`:
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-To acquire updated microcode, depending on the processor, install one of the following packages:
+To acquire updated [microcode](https://wiki.archlinux.org/title/Microcode), depending on the processor, install one of the following packages:
 
 ```bash
 pacman -S ...
@@ -483,7 +485,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 Exit the chroot environment by typing `exit`.
 
-Manually unmount all the partitions with `umount -R /mnt`: this allows noticing any "busy" partitions, and finding the cause with `fuser(1)`.
+Manually unmount all the partitions with `umount -R /mnt`: this allows noticing any "busy" partitions, and finding the cause with [`fuser(1)`](https://man.archlinux.org/man/fuser.1).
 
 Finally, restart the machine by typing `reboot`: any partitions still mounted will be automatically unmounted by systemd. Remember to remove the installation medium and then login into the new system with the root account.
 
