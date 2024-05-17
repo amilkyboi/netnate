@@ -3,11 +3,36 @@ color theme: https://github.com/rebelot/kanagawa.nvim
 stole some css from: https://github.com/nathan-barry/nathan.rs/blob/main/static/css/styles.css
 */
 
+/* color palette */
+
+:root {
+    --p-rosewater: #f5e0dc;
+    --p-flamingo:  #f2cdcd;
+    --p-pink:      #f5c2e7;
+    --p-mauve:     #cba6f7;
+    --p-red:       #f38ba8;
+    --p-maroon:    #eba0ac;
+    --p-peach:     #fab387;
+    --p-yellow:    #f9e2af;
+    --p-green:     #a6e3a1;
+    --p-teal:      #94e2d5;
+    --p-sky:       #89dceb;
+    --p-sapphire:  #74c7ec;
+    --p-blue:      #89b4fa;
+    --p-lavender:  #b4befe;
+    --p-text:      #cdd6f4;
+    --p-subtext:   #bac2de;
+    --p-overlay:   #6c7086;
+    --p-surface:   #313244;
+    --p-base:      #1e1e2e;
+    --p-crust:     #11111b;
+}
+
 /* body */
 
 body {
-    background-color: #16161D;
-    color: #DCD7BA;
+    background-color: var(--p-crust);
+    color: var(--p-text);
     font-family: sans-serif;
     margin: 2rem auto;
     padding: 2rem 1.25rem;
@@ -26,57 +51,57 @@ p {
 /* headings */
 
 h1 {
-    color: #7FB4CA;
+    color: var(--p-mauve);
 }
 
 h1 a {
-    color: #7FB4CA;
+    color: var(--p-mauve);
     text-decoration: none;
 }
 
 h2 {
-    color: #658594;
+    color: var(--p-pink);
 }
 
 h2 a {
-    color: #658594;
+    color: var(--p-pink);
     text-decoration: none;
 }
 
 h3 {
-    color: #658594;
+    color: var(--p-flamingo);
 }
 
 h3 a {
-    color: #658594;
+    color: var(--p-flamingo);
     text-decoration: none;
 }
 
 h4 {
-    color: #658594;
+    color: var(--p-rosewater);
 }
 
 h4 a {
-    color: #658594;
+    color: var(--p-rosewater);
     text-decoration: none;
 }
 
 /* links */
 
 a {
-    color: #FFA066;
+    color: var(--p-teal);
     text-decoration-style: dotted;
 }
 
 a:hover {
-    color: #E82424;
+    color: var(--p-red);
 }
 
 /* header */
 
 header {
     display: flex;
-    border-bottom: 1px dashed #DCD7BA;
+    border-bottom: 1px dashed var(--p-text);
     margin-bottom: 1rem;
 }
 
@@ -102,9 +127,9 @@ summary {
 }
 
 time {
-    border-left: 0.5rem solid #9CABCA;
+    border-left: 0.5rem solid var(--p-lavender);
     padding-left: 1rem;
-    color: #9CABCA;
+    color: var(--p-lavender);
 }
 
 /* tables */
@@ -112,8 +137,8 @@ time {
 table {
     border-collapse: collapse;
     margin: auto;
-    border-top: 0.2rem solid #E6C384;
-    border-bottom: 0.2rem solid #E6C384;
+    border-top: 0.2rem solid var(--p-subtext);
+    border-bottom: 0.2rem solid var(--p-subtext);
 }
 
 th,
@@ -124,7 +149,7 @@ td {
 
 table > tbody > tr:first-child > td,
 table > tbody > tr:first-child > th {
-  border-top: 0.1rem solid #E6C384;
+  border-top: 0.1rem solid var(--p-overlay);
 }
 
 /* code */
@@ -135,7 +160,7 @@ kbd {
   font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
     monospace;
   font-size: 85%;
-  color: #7AA89F;
+  color: var(--p-subtext);
 }
 
 p code,
@@ -143,7 +168,7 @@ li code,
 ul code,
 table code,
 .notice code {
-    background-color: #282828;
+    background-color: var(--p-base);
     padding: 0.2rem 0.4rem;
     border-radius: 4px;
 }
@@ -172,7 +197,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px dashed #DCD7BA;
+    border-top: 1px dashed var(--p-text);
     margin-top: 1rem;
 }
 
@@ -183,9 +208,9 @@ footer nav ul {
 /* blockquotes */
 
 blockquote {
-    border-left: 0.5rem solid #9CABCA;
+    border-left: 0.5rem solid var(--p-overlay);
     padding-left: 1rem;
-    color: #9CABCA;
+    color: var(--p-subtext);
 }
 
 blockquote p {
@@ -199,9 +224,9 @@ blockquote ul {
 /* notices */
 
 .notice {
-    background-color: #363646;
+    background-color: var(--p-surface);
     padding: 0.5rem 1rem;
-    color: #DCD7BA;
+    color: var(--p-text);
 }
 
 .notice-icon {

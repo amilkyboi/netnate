@@ -6,7 +6,7 @@ tags = ['computing']
 summary = 'Like archinstall, but not.'
 +++
 
-Many parts of this writeup are taken verbatim from the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide). The sections listed here are in 1:1 accordance with those on the wiki, and links to the wiki are provided often.
+Many parts of this writeup are taken verbatim from the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide). Many of the sections here were in 1:1 accordance with those on the wiki at the time of writing. Due to the inherently transitive nature of Arch Linux, it is entirely likely that some portions of this writeup will become outdated.
 
 {{< notice info >}}
 Always consult the official wiki for the most up-to-date information.

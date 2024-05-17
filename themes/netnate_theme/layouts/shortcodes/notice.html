@@ -4,13 +4,13 @@
 {{ $color := "" }}
 
 {{ if eq $type "note" }}
-    {{ $color = "#7FB4CA" }}
+    {{ $color = "#89b4fa" }}
 {{ else if eq $type "info" }}
-    {{ $color = "#E6C384" }}
+    {{ $color = "#f9e2af" }}
 {{ else if eq $type "warning" }}
-    {{ $color = "#E82424" }}
+    {{ $color = "#f38ba8" }}
 {{ else if eq $type "tip" }}
-    {{ $color = "#98BB6C" }}
+    {{ $color = "#a6e3a1" }}
 {{ end }}
 
 <blockquote class="notice" style="border-left: 0.5rem solid {{ $color }};">
