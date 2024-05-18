@@ -135,6 +135,9 @@ time {
 /* tables */
 
 table {
+    display: block;
+    overflow-x: auto;
+    max-width: fit-content;
     border-collapse: collapse;
     margin: auto;
     border-top: 0.2rem solid var(--p-subtext);
