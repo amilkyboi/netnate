@@ -1,7 +1,7 @@
 +++
 title = 'archinstall'
 date = 2024-03-17
-draft = true
+draft = false
 tags = ['computing']
 summary = 'Like archinstall, but not.'
 +++
