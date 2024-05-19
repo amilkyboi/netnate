@@ -37,7 +37,7 @@ body {
     margin: 2rem auto;
     padding: 2rem 1.25rem;
     line-height: 1.5;
-    max-width: 100ch;
+    max-width: 56vw;
     min-height: 80vh;
 }
 
@@ -309,5 +309,13 @@ blockquote ul {
         margin-left: -20vw;
         position: sticky;
         top: 20px;
+    }
+}
+
+/* small screens */
+
+@media (max-width: 780px) {
+    body {
+        max-width: 100ch;
     }
 }
