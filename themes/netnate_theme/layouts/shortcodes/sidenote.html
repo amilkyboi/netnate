@@ -1,0 +1,7 @@
+{{ $raw := (markdownify .Inner | chomp) }}
+
+<span class="sidenote-number">
+    <small class="sidenote">
+        {{ $raw }}
+    </small>
+</span>

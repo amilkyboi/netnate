@@ -19,6 +19,8 @@ pageRef = '/tags'
 weight = 30
 
 [markup]
+    [markup.tableOfContents]
+        endLevel = 2
     [markup.highlight]
         style = 'catppuccin-mocha'
     [markup.goldmark]
@@ -31,6 +33,7 @@ weight = 30
 
 [params]
     math = false
+    toc = true
 
 [module]
     [module.hugoVersion]

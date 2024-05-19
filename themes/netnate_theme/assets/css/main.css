@@ -243,3 +243,71 @@ blockquote ul {
     align-items: center;
     margin-bottom: 1rem;
 }
+
+/* sidenotes */
+
+.sidenote {
+    float: right;
+    clear: right;
+    width: 18vw;
+    margin-right: -20vw;
+    margin-bottom: 1em;
+}
+
+.sidenote-number::after,
+.sidenote::before {
+    position: relative;
+    vertical-align: baseline;
+}
+
+.sidenote-number::after {
+    content: '\2020';
+    font-size: 0.7rem;
+    top: -0.5rem;
+    left: -0.2rem;
+}
+
+.sidenote::before {
+    content: '\2020';
+    top: -0.5rem;
+}
+
+/* table of contents */
+
+.toc ul {
+    list-style: disc;
+    display: block;
+}
+
+.toc a {
+    color: var(--p-subtext);
+    text-decoration: none;
+}
+
+.toc a:hover {
+    color: var(--p-red);
+}
+
+/* side elements on medium screens */
+
+@media (max-width: 1050px) {
+    .sidenote {
+        /* FIXME: bug when sidenotes are placed before blockquotes */
+        /* TODO: bump sidenote to end of paragraph when reference is in the middle of a paragraph */
+        text-align: center;
+        width: 100%;
+        margin: 1rem 0;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1050px) {
+    .toc {
+        float: left;
+        clear: left;
+        width: 18vw;
+        margin-left: -20vw;
+        position: sticky;
+        top: 20px;
+    }
+}

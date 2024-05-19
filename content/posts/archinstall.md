@@ -1,12 +1,12 @@
 +++
 title = 'archinstall'
 date = 2024-03-17
-draft = false
+draft = true
 tags = ['computing']
 summary = 'Like archinstall, but not.'
 +++
 
-Many parts of this writeup are taken verbatim from the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide). Many of the sections here were in 1:1 accordance with those on the wiki at the time of writing. Due to the inherently transitive nature of Arch Linux, it is entirely likely that some portions of this writeup will become outdated.
+Many parts of this writeup are taken verbatim from the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide). Many of the sections here were in 1:1 accordance with those on the wiki at the time of writing. Due to the inherently transitive nature of Arch Linux, it is entirely likely that some portions of this writeup will become outdated.{{< sidenote >}}I will try to keep this guide updated, but I'm making no promises.{{< /sidenote >}}
 
 {{< notice info >}}
 Always consult the official wiki for the most up-to-date information.
