@@ -292,12 +292,15 @@ blockquote ul {
 
 @media (max-width: 1050px) {
     .sidenote {
-        /* FIXME: bug when sidenotes are placed before blockquotes */
         /* TODO: bump sidenote to end of paragraph when reference is in the middle of a paragraph */
         text-align: center;
         width: 100%;
         margin: 1rem 0;
         padding-bottom: 1rem;
+    }
+
+    blockquote {
+        clear: both;
     }
 }
 

@@ -27,9 +27,9 @@ weight = 30
         [markup.goldmark.extensions]
             [markup.goldmark.extensions.passthrough]
                 enable = true
-            [markup.goldmark.extensions.passthrough.delimiters]
-                block = [['$$', '$$']]
-                inline = [['$', '$']]
+                [markup.goldmark.extensions.passthrough.delimiters]
+                    block = [['$$', '$$']]
+                    inline = [['$', '$']]
 
 [params]
     math = false
@@ -38,4 +38,4 @@ weight = 30
 [module]
     [module.hugoVersion]
         extended = false
-        min = '0.126.1'
+        min = '0.126.2'

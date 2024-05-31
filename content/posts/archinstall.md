@@ -1,7 +1,7 @@
 +++
 title = 'archinstall'
-date = 2024-03-17
-draft = true
+date = 2024-05-31
+draft = false
 tags = ['computing']
 summary = 'Like archinstall, but not.'
 +++
@@ -490,3 +490,5 @@ Manually unmount all the partitions with `umount -R /mnt`: this allows noticing 
 Finally, restart the machine by typing `reboot`: any partitions still mounted will be automatically unmounted by systemd. Remember to remove the installation medium and then login into the new system with the root account.
 
 ## 5 Post-installation
+
+Coming soon!
