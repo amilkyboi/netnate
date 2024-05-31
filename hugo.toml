@@ -1,4 +1,4 @@
-baseURL = 'https://www.netnate.com'
+baseURL = 'https://netnate.com'
 languageCode = 'en-us'
 title = 'netnate'
 theme = 'netnate_theme'
