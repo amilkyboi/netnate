@@ -6,13 +6,28 @@ tags = ['computing']
 summary = 'Like archinstall, but not.'
 +++
 
-Many parts of this writeup are taken verbatim from the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide). Many of the sections here were in 1:1 accordance with those on the wiki at the time of writing. Due to the inherently transitive nature of Arch Linux, it is entirely likely that some portions of this writeup will become outdated.{{< sidenote >}}I will try to keep this guide updated, but I'm making no promises.{{< /sidenote >}}
+## TODO
+
+- [ ] Add walkthrough instructions for installation on a VM
+- [ ] Improve section about creating the filesystem (especially EFI system partition, and the order in which partitions are created and mounted)
+- [ ] Go over adding Wayland, display drivers, and a window manager
+
+LINKS:
+
+- <https://wiki.archlinux.org/title/VirtualBox/Install_Arch_Linux_as_a_guest>
+- <https://wiki.archlinux.org/title/EFI_system_partition>
+- <https://wiki.archlinux.org/title/GRUB>
+- <https://wiki.archlinux.org/title/General_recommendations>
+
+---
+
+This guide is meant to serve as a mostly linear walkthrough for installing Arch linux manually. I go through all the steps in the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide) and add some more in-depth explanations to sections that are oftentimes troublesome. I also added some steps in the pre-installation section that are aimed at Windows users who might be unfamiliar with the processes of torrenting, verifying digital signatures, and preparing ISO files. For those who would like to test Arch out on a VM first, I've included a general setup guide for VirtualBox. At the end, I've outlined a few post-installation steps for getting the system into a useable state with a working compositor, window manager, and a few other essentials.
 
 {{< notice info >}}
-Always consult the official wiki for the most up-to-date information.
+Due to the inherently transitive nature of Arch Linux, it is entirely likely that some portions of this writeup will become outdated. You should always consult the official Arch wiki for the most up-to-date information.
 {{< /notice >}}
 
-I have attempted to consolidate multiple wiki pages into a single source for a more cohesive installation process. The steps listed in the pre-installation section are directed at Windows users unfamiliar with the processes of torrenting files, verifying digital signatures, and preparing ISO files. Additionally, I've built upon the main installation by getting the system into a useable state.
+Although this guide goes over all the installation steps in detail, I'd actually recommend using the [archinstall](https://wiki.archlinux.org/title/Archinstall) installation script in most cases. If you decide to use archinstall, please read the wiki first, as there are a few gotchas that you must keep in mind.
 
 ## 1 Pre-installation
 
