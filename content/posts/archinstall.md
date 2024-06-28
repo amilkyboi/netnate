@@ -6,21 +6,6 @@ tags = ['computing']
 summary = 'Like archinstall, but not.'
 +++
 
-## TODO
-
-- [ ] Add walkthrough instructions for installation on a VM
-- [ ] Improve section about creating the filesystem (especially EFI system partition, and the order in which partitions are created and mounted)
-- [ ] Go over adding Wayland, display drivers, and a window manager
-
-LINKS:
-
-- <https://wiki.archlinux.org/title/VirtualBox/Install_Arch_Linux_as_a_guest>
-- <https://wiki.archlinux.org/title/EFI_system_partition>
-- <https://wiki.archlinux.org/title/GRUB>
-- <https://wiki.archlinux.org/title/General_recommendations>
-
----
-
 This guide is meant to serve as a mostly linear walkthrough for installing Arch linux manually. I go through all the steps in the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide) and add some more in-depth explanations to sections that are oftentimes troublesome. I also added some steps in the pre-installation section that are aimed at Windows users who might be unfamiliar with the processes of torrenting, verifying digital signatures, and preparing ISO files. For those who would like to test Arch out on a VM first, I've included a general setup guide for VirtualBox. At the end, I've outlined a few post-installation steps for getting the system into a useable state with a working compositor, window manager, and a few other essentials.
 
 {{< notice info >}}
