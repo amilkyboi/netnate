@@ -1,221 +1,265 @@
 +++
 title = 'library'
-date = 2024-01-01
+date = 2024-09-02
 draft = false
 tags = ['books']
 summary = 'The books I own.'
 +++
 
-## Philosophy
+## Chemistry
 
-| Author    | Title                             | Notes                    | ISBN-13    |
-| --------- | --------------------------------- | ------------------------ | ---------- |
-| Aristotle | *The Metaphysics*                 | tr. Lawson-Tancred       | 0140446197 |
-| Aristotle | *Nicomachean Ethics*              | tr. Peters               | 0760752364 |
-| Aurelius  | *Meditations*                     | tr. Hammond              | 0140449334 |
-| Epictetus | *Discourses*                      | tr. Higginson            | Pre-ISBN   |
-| Nietzsche | *Thus Spoke Zarathustra*          | tr. Hollingdale          | 0140441185 |
-| Plato     | *The Last Days of Socrates*       | tr. Tredennick & Tarrant | 0140445824 |
-| Plato     | *Republic*                        | tr. Waterfield           | 0192833709 |
-| Russell   | *A History of Western Philosophy* | -                        | 0671201586 |
+| Author                   | Title                                                                                                           | ISBN          |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------- |
+| Atkins, Jones & Laverman | *Chemical Principles: The Quest for Insight*                                                                    | 9781464183959 |
+| Harris & Bertolucci      | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy*                         | 9780486661445 |
+| Johnson, Lavelle & Ma    | *Student Solutions Manual to Accompany Chemical Principles: The Quest for Insight*                              | 9781319017569 |
+| O'Connor                 | *Fundamentals of Chemistry*                                                                                     | 9780808715290 |
+| Pauling                  | *General Chemistry*                                                                                             | 9780716701484 |
+| Singh, Pike & Szafran    | *Microscale & Selected Macroscale Experiments for General & Advanced General Chemistry: An Innovative Approach* | 9780471585961 |
 
-## Literature
+## Classic Literature
 
-| Author        | Title                           | Notes         | ISBN-13    |
-| ------------- | ------------------------------- | ------------- | ---------- |
-| Austen        | *Pride and Prejudice*           | -             | 0895771988 |
-| Bradbury      | *Fahrenheit 451*                | -             | 0345342966 |
-| Cicero et al. | *The Portable Roman Reader*     | ed. Davenport | 0140150568 |
-| Heller        | *Catch-22*                      | -             | 1451626650 |
-| Hosseini      | *The Kite Runner*               | -             | 1594631931 |
-| Lee           | *To Kill a Mockingbird*         | -             | 0446310789 |
-| Márquez       | *Chronicle of a Death Foretold* | tr. Rabassa   | 1400034710 |
-| Matthee       | *Fiela's Child*                 | -             | 0226510835 |
-| Orwell        | *1984*                          | -             | 0451524935 |
-| Süskind       | *Perfume*                       | tr. Woods     | 0375725845 |
-| Tolkien       | *The Hobbit*                    | -             | 0345339683 |
-| Tolkien       | *The Lord of the Rings*         | -             | 0544003415 |
-| Twain         | *The Adventures of Tom Sawyer*  | -             | 1593081393 |
-| Verne         | *Seven Novels*                  | -             | 1435122956 |
-
-## Sci-Fi
-
-| Author     | Title                    | Notes         | ISBN-13    |
-| ---------- | ------------------------ | ------------- | ---------- |
-| Bradbury   | *The Martian Chronicles* | -             | 1451678192 |
-| Card       | *Ender's Game*           | -             | 0765337542 |
-| Glukhovsky | *Metro 2033*             | tr. Randall   | 1407244082 |
-| Herbert    | *Dune*                   | -             | 0593099322 |
-| Liu        | *The Three-Body Problem* | tr. Liu       | 0765382030 |
-| Liu        | *The Dark Forest*        | tr. Martinsen | 0765386694 |
-| Liu        | *Death's End*            | tr. Liu       | 0765386632 |
-
-## Theater
-
-| Author      | Title                                   | Notes | ISBN-13       |
-| ----------- | --------------------------------------- | ----- | ------------- |
-| Fugard      | *"Master Harold"...and the boys*        | -     | 0307475206    |
-| Shakespeare | *The Portable Shakespeare*              | -     | 0140150087    |
-| Stoppard    | *Rosencrantz and Guildenstern Are Dead* | -     | LCCN: 6730108 |
-| Wilde       | *The Importance of Being Earnest*       | -     | 1593080594    |
-| Williams    | *A Streetcar Named Desire*              | -     | 0811207652    |
-
-## History
-
-| Author                       | Title                                                                      | Notes             | ISBN-13      |
-| ---------------------------- | -------------------------------------------------------------------------- | ----------------- | ------------ |
-| Beard                        | *SPQR: A History of Ancient Rome*                                          | -                 | 0871404237   |
-| Boorstin                     | *The Discoverers*                                                          | -                 | 0394726250   |
-| Brent & Naumov               | *Stalin's Last Crime*                                                      | -                 | 0060195243   |
-| Davies                       | *Europe: A History*                                                        | -                 | 0060974688   |
-| Doughery                     | *Small Arms: Visual Encyclopedia*                                          | -                 | 1435139343   |
-| Douglas                      | *The Secret Horsepower Race*                                               | -                 | 1911658504   |
-| Douglass                     | *Narrative of the Life of Frederick Douglass*                              | ed. Blight        | 0312075316   |
-| Fullenkamp, Bowman, & Luvaas | *Guide to the Vicksburg Campaign*                                          | -                 | 0700609239   |
-| Ford & Zaloga                | *Overlord: The D-Day Landings*                                             | -                 | 1846034244   |
-| Gibbon                       | *The History of the Decline and Fall of the Roman Empire*                  | ed. Radice        | No ISBN      |
-| Gibbon                       | *The History of the Decline and Fall of the Roman Empire: Abriged Edition* | ed. Womersley     | 0140437645   |
-| Herodotus                    | *The Histories*                                                            | tr. de Sélincourt | 0140449082   |
-| Livy                         | *A History of Rome*                                                        | tr. Hadas & Poe   | LCCN: 629689 |
-| McNab                        | *Military Uniforms: Visual Encyclopedia*                                   | -                 | 1908273024   |
-| Rutter                       | *Wreaking Havoc: A Year in an A-20*                                        | -                 | 1603447379   |
-| Suetonius                    | *The Twelve Caesars*                                                       | tr. Graves        | 0140455168   |
-| Yeager                       | *Yeager*                                                                   | -                 | 0553050936   |
-| Zamoyski                     | *1812: Napoleon’s Fatal March on Moscow*                                   | -                 | 0007123742   |
-
-## Latin
-
-| Author               | Title                                                                                                  | Notes         | ISBN-13    |
-| -------------------- | ------------------------------------------------------------------------------------------------------ | ------------- | ---------- |
-| Comeau & LaFleur     | *Workbook for Wheelock’s Latin*                                                                        | 3rd Ed., Rev. | 0060956424 |
-| LaFleur              | *Scribblers, Sculptors, and Scribes: A Companion to Wheelock’s Latin and Other Introductory Textbooks* | -             | 0061259180 |
-| Moreland & Fleischer | *Latin: An Intensive Course*                                                                           | -             | 0520031838 |
-| Neumann              | *Lingua Latina: A Companion to Familia Romana*                                                         | 2nd Ed.       | 1585108091 |
-| Ørberg               | *Lingua Latina per se Illustrata: Colloquia Personarum*                                                | 2nd Ed.       | 1585109388 |
-| Ørberg               | *Lingua Latina per se Illustrata: Pars I - Exercitia Latina I*                                         | -             | 1585102129 |
-| Ørberg               | *Lingua Latina per se Illustrata: Pars I - Familia Romana*                                             | -             | 1585104208 |
-| Ørberg               | *Lingua Latina per se Illustrata: Pars I - Grammatica Latina*                                          | -             | 1585102235 |
-| Ørberg               | *Lingua Latina per se Illustrata: Pars I - Latine Disco*                                               | -             | 1585100507 |
-| Owens                | *Lingua Latina per se Illustrata: Pars I - Glossarium*                                                 | -             | 1585106936 |
-| Wheelock & LaFleur   | *Wheelock’s Latin*                                                                                     | 7th Ed.       | 0061997228 |
-| Wheelock & LaFleur   | *Wheelock’s Latin Reader: Selections from Latin Literature*                                            | 2nd Ed.       | 0060935061 |
-
-## General Science
-
-| Author                       | Title                                          | Notes   | ISBN-13        |
-| ---------------------------- | ---------------------------------------------- | ------- | -------------- |
-| Armstrong, Collins, & Aldrin | *First on the Moon*                            | -       | 0316051606     |
-| Cecil                        | *Textbook of Medicine*                         | 7th Ed. | Pre-ISBN       |
-| Clark                        | *Ignition!*                                    | -       | 0813595832     |
-| Darwin                       | *The Origin of Species*                        | -       | 0140432053     |
-| Hawking                      | *A Brief History of Time*                      | -       | 0553053401     |
-| Metz                         | *Northrop YF-23 ATF*                           | -       | 0989258371     |
-| Munroe                       | *what if?*                                     | -       | 0544272996     |
-| NASA                         | *Lunar Photographs from Apollos 8, 10, and 11* | -       | LCCN: 75608546 |
-| Rich & Janos                 | *Skunk Works*                                  | -       | 0751515039     |
-| Rhodes                       | *The Making of the Atomic Bomb*                | -       | 0671657192     |
-| Sagan                        | *Cosmos*                                       | -       | 0394502946     |
-| Smith                        | *We Came in Peace*                             | -       | 1112997389     |
-| Time-Life                    | *Stars*                                        | -       | 0809468584     |
-| Wolfe                        | *The Right Stuff*                              | -       | 0312427566     |
-| Woods                        | *NASA Saturn V Owners' Workshop Manual*        | -       | 0857338280     |
-
-## Engineering
-
-| Author                         | Title                                                     | Notes   | ISBN-13    |
-| ------------------------------ | --------------------------------------------------------- | ------- | ---------- |
-| Abbott & von Doenhoff          | *Theory of Wing Sections*                                 | -       | 0486605869 |
-| Anderson                       | *Introduction to Flight*                                  | 8th Ed. | 1307493078 |
-| Anderson                       | *Hypersonic and High-Temperature Gas Dynamics*            | 3rd Ed. | 1624105142 |
-| Anderson                       | *Modern Compressible Flow: With Historical Perspective*   | 3rd Ed. | 0072424430 |
-| Askeland                       | *The Science and Engineering of Materials*                | -       | 0534029579 |
-| Bate, Meuller, White, & Saylor | *Fundamentals of Astrodynamics*                           | 2nd Ed. | 0486497044 |
-| Becker, Carey, & Oden          | *Finite Elements: An Introduction*                        | Vol. 1  | 0133170573 |
-| Bedford & Liechti              | *Mechanics of Materials*                                  | 2nd Ed. | 3030220815 |
-| Carr                           | *How to Design and Build Electronic Instrumentation*      | 2nd Ed. | 0830695607 |
-| Childs                         | *Turbomachinery Rotordynamics with Case Studies*          | -       | 0615852720 |
-| Cochin & Plass                 | *Analysis and Design of Dynamic Systems*                  | 2nd Ed. | 0060413149 |
-| Cogdell                        | *Foundations of Electrical Engineering*                   | -       | 0133295252 |
-| Gere & Timoshenko              | *Mechanics of Materials*                                  | 2nd Ed. | 0534030995 |
-| Horn                           | *Basic Electronics Theory: With Projects and Experiments* | 2nd Ed. | 0830607754 |
-| Hurt                           | *Aerodynamics for Naval Aviators*                         | -       | 1492948209 |
-| Incropera & DeWitt             | *Fundamentals of Heat and Mass Transfer*                  | 3rd Ed. | 0471612469 |
-| Inman                          | *Engineering Vibration*                                   | -       | 0135185315 |
-| James, Smith, & Wolford        | *Applied Numerical Methods for Digital Computation*       | 3rd Ed. | 0060432812 |
-| John                           | *Gas Dynamics*                                            | 2nd Ed. | 0205080144 |
-| Johnson                        | *Helicopter Theory*                                       | -       | 0486682303 |
-| Leishman                       | *Principles of Helicopter Aerodynamics*                   | 2nd Ed. | 1107013353 |
-| Loftin                         | *Quest for Performance: The Evolution of Modern Aircraft* | -       | 1503105027 |
-| McKerrow                       | *Introduction to Robotics*                                | -       | 0201182408 |
-| Moran & Shapiro                | *Fundamentals of Engineering Thermodynamics*              | 2nd Ed. | 0471571179 |
-| Morley                         | *The Linear IC Handbook*                                  | -       | 0830604722 |
-| Morrison                       | *Diesel Engineering Handbook*                             | 7th Ed. | Pre-ISBN   |
-| Munson, Young, & Okiishi       | *Fundamentals of Fluid Mechanics*                         | -       | 0471855262 |
-| Prouty                         | *Helicopter Performance, Stability, and Control*          | -       | 1575242095 |
-| Reddy                          | *An Introduction to the Finite Element Method*            | 2nd Ed. | 0070513556 |
-| Schaub & Junkins               | *Analytical Mechanics of Space Systems*                   | 4th Ed. | 1624105210 |
-| Shigley & Mischke              | *Mechanical Engineering Design*                           | 5th Ed. | 0070568990 |
-| Spurk                          | *Fluid Mechanics*                                         | -       | 3540616511 |
-| Spurk                          | *Fluid Mechanics: Problems and Solutions*                 | -       | 3540616528 |
-| Steidel                        | *An Introduction to Mechanical Vibrations*                | 3rd Ed. | 0471845454 |
-| Sutton & Biblarz               | *Rocket Propulsion Elements*                              | 9th Ed. | 1118753651 |
-| Vance                          | *Rotordynamics of Turbomachinery*                         | -       | 0471802587 |
-| Wark                           | *Thermodynamics*                                          | -       | 0070682849 |
-| Warring                        | *Understanding Electronics*                               | 2nd Ed. | 0830602537 |
-| Wylen & Sonntag                | *Fundamentals of Classical Thermodynamics*                | 3rd Ed. | 0471861737 |
-
-## Physics
-
-| Author                        | Title                                                                               | Notes              | ISBN-13    |
-| ----------------------------- | ----------------------------------------------------------------------------------- | ------------------ | ---------- |
-| Feynman, Leighton, & Sands    | *The Feynman Lectures on Physics: Volume I - Mainly Mechanics, Radiation, and Heat* | New Millennium Ed. | 0465024148 |
-| Feynman, Leighton, & Sands    | *The Feynman Lectures on Physics: Volume II - Mainly Electromagnetism and Matter*   | New Millennium Ed. | 0465024162 |
-| Feynman, Leighton, & Sands    | *The Feynman Lectures on Physics: Volume III - Quantum Mechanics*                   | New Millennium Ed. | 0465024179 |
-| Feynman et al.                | *Exercises for the Feynman Lectures on Physics*                                     | New Millennium Ed. | 0465060719 |
-| Fowles                        | *Introduction to Modern Optics*                                                     | 2nd Ed.            | 0486659572 |
-| Fox                           | *A Student's Guide to Atomic Physics*                                               | -                  | 1107188730 |
-| Griffiths                     | *Introduction to Electrodynamics*                                                   | 4th Ed.            | 1108420419 |
-| Griffiths & Schroeter         | *Introduction to Quantum Mechanics*                                                 | 3rd Ed.            | 1107189638 |
-| Halliday, Resnich, & Derringh | *Physics: Part 2*                                                                   | 3rd Ed.            | 0471345299 |
-| Halliday, Resnick, & Derringh | *Selected Solutions for Physics*                                                    | 3rd Ed., Rev.      | 0471097129 |
-| Harris & Bertolucci           | *Symmetry and Spectroscopy*                                                         | -                  | 0486661445 |
-| Hecht                         | *Optics*                                                                            | 4th Ed.            | 0805385663 |
-| Herzberg                      | *Atomic Spectra and Atomic Structure*                                               | -                  | 0486601151 |
-| Hudson & Nelson               | *University Physics*                                                                | -                  | 0155929609 |
-| McQuarrie & Simon             | *Physical Chemistry: A Molecular Approach*                                          | -                  | 0935702996 |
-| Pauling                       | *General Chemistry*                                                                 | 3rd Ed.            | 0716701484 |
-| Sears, Zemansky, & Young      | *University Physics: Part I*                                                        | 6th Ed.            | 0201071962 |
-| Sears, Zemansky, & Young      | *Solutions Guide to Accompany University Physics*                                   | 6th Ed.            | 0201072259 |
-| Siegman                       | *Lasers*                                                                            | -                  | 0935702118 |
-| Susskind & Hrabovsky          | *Classical Mechanics*                                                               | -                  | 0141976228 |
-| Susskind & Friedman           | *Quantum Mechanics*                                                                 | -                  | 0141977812 |
-| Susskind & Friedman           | *Special Relativity and Classical Field Theory*                                     | -                  | 0141985015 |
-
-## Mathematics
-
-| Author          | Title                                                           | Notes   | ISBN-13    |
-| --------------- | --------------------------------------------------------------- | ------- | ---------- |
-| Agnew & Knapp   | *Linear Algebra with Applications*                              | 2nd Ed. | 0534013646 |
-| Boyce & Diprima | *Elementary Differential Equations and Boundary Value Problems* | 3rd Ed. | 0471093343 |
-| Orleans & Hart  | *Intermediate Algebra*                                          | -       | Pre-ISBN   |
-| Spiegel         | *Applied Differential Equations*                                | 3rd Ed. | 0130400970 |
+| Author        | Title                          | ISBN          |
+| ------------- | ------------------------------ | ------------- |
+| Austen        | *Pride and Prejudice*          | 9780895771988 |
+| Cicero et al. | *The Portable Roman Reader*    | 9780140150568 |
+| Lee           | *To Kill a Mockingbird*        | 9780446310789 |
+| Twain         | *The Adventures of Tom Sawyer* | 9781593081393 |
+| Verne         | *Seven Novels*                 | 9781435122956 |
 
 ## Computer Science
 
-| Author                             | Title                                            | Notes   | ISBN-13    |
-| ---------------------------------- | ------------------------------------------------ | ------- | ---------- |
-| Ball                               | *Writing an Interpreter in Go*                   | -       | 3982016115 |
-| Ball                               | *Writing a Compiler in Go*                       | -       | 3982016108 |
-| Cormen, Leiserson, Rivest, & Stein | *Introduction to Algorithms*                     | 4th Ed. | 0262046305 |
-| Gorelick & Ozsvald                 | *High Performace Python*                         | 2nd Ed. | 1492055020 |
-| Kernighan & Ritchie                | *The C Programming Language*                     | 2nd Ed. | 0131103627 |
-| Kiusalaas                          | *Numerical Methods in Engineering with Python 3* | -       | 1107033856 |
-| Matthes                            | *Python Crash Course*                            | 2nd Ed. | 1593279288 |
-| Ramalho                            | *Fluent Python*                                  | 2nd Ed. | 1492056355 |
-| Slatkin                            | *Effective Python*                               | 2nd Ed. | 0134853987 |
+| Author                            | Title                                                                                 | ISBN          |
+| --------------------------------- | ------------------------------------------------------------------------------------- | ------------- |
+| Arpaci-Dusseau & Arpaci-Dusseau   | *Operating Systems: Three Easy Pieces*                                                | No ISBN       |
+| Ball                              | *Writing a Compiler in Go*                                                            | 9783982016108 |
+| Ball                              | *Writing an Interpreter in Go*                                                        | 9783982016115 |
+| Blandy, Orendorff & Tindall       | *Programming Rust: Fast, Safe Systems Development*                                    | 9781492052593 |
+| Bodner                            | *Learning Go: An Idiomatic Approach to Real-World Go Programming*                     | 9781098139292 |
+| Boillot                           | *Understanding FORTRAN*                                                               | 9780829903553 |
+| Cormen, Leiserson, Rivest & Stein | *Introduction to Algorithms*                                                          | 9780262046305 |
+| Gjengset                          | *Rust for Rustaceans: Idiomatic Programming for Experienced Developers*               | 9781718501850 |
+| Gorelick & Ozsvald                | *High Performance Python: Practical Performant Programming for Humans*                | 9781492055020 |
+| James, Smith & Wolford            | *Applied Numerical Methods for Digital Computation*                                   | 9780060432812 |
+| Kernighan & Ritchie               | *The C Programming Language*                                                          | 9780131103627 |
+| King                              | *C Programming: A Modern Approach*                                                    | 9780393979503 |
+| Kiusalaas                         | *Numerical Methods in Engineering with Python 3*                                      | 9781107033856 |
+| Klabnik & Nichols                 | *The Rust Programming Language*                                                       | 9781718503106 |
+| Matthes                           | *Python Crash Course: A Hands-On, Project-Based Introduction to Programming*          | 9781593279288 |
+| Ramalho                           | *Fluent Python: Clear, Concise, and Effective Programming*                            | 9781492056355 |
+| Sedgewick                         | *Algorithms in C: Part 5 - Graph Algorithms*                                          | 9780201316636 |
+| Sedgewick                         | *Algorithms in C: Parts 1-4 - Fundamentals, Data Structures, Sorting, Searching*      | 9780201314526 |
+| Slatkin                           | *Effective Python: 90 Specific Ways to Write Better Python*                           | 9780134853987 |
+| Ward                              | *How Linux Works: What Every Superuser Should Know*                                   | 9781718500402 |
+| Woodbeck                          | *Network Programming with Go: Code Secure and Reliable Network Services from Scratch* | 9781718500884 |
 
-## Miscellaneous
+## Engineering
 
-| Author  | Title                       | Notes | ISBN-13  |
-| ------- | --------------------------- | ----- | -------- |
-| Leeming | *Card Tricks Anyone Can Do* | -     | Pre-ISBN |
+| Author                        | Title                                                                               | ISBN          |
+| ----------------------------- | ----------------------------------------------------------------------------------- | ------------- |
+| Abbott & Doenhoff             | *Theory of Wing Sections: Including a Summary of Airfoil Data*                      | 9780486605869 |
+| Anderson                      | *Fundamentals of Aerodynamics*                                                      | 9781259129919 |
+| Anderson                      | *Hypersonic and High-Temperature Gas Dynamics*                                      | 9781624105142 |
+| Anderson                      | *Introduction to Flight*                                                            | 9781307493078 |
+| Anderson                      | *Modern Compressible Flow: With Historical Perspective*                             | 9780072424430 |
+| Askeland                      | *The Science and Engineering of Materials*                                          | 9780534029579 |
+| Bate, Mueller, White & Saylor | *Fundamentals of Astrodynamics*                                                     | 9780486497044 |
+| Becker, Carey & Oden          | *Finite Elements: An Introduction - Volume I*                                       | 9780133170573 |
+| Bedford & Liechti             | *Mechanics of Materials*                                                            | 9783030220815 |
+| Carr                          | *How to Design and Build Electronic Instrumentation*                                | 9780830695607 |
+| Childs                        | *Turbomachinery Rotordynamics with Case Studies*                                    | 9780615852720 |
+| Clark                         | *Ignition!: An Informal History of Liquid Rocket Propellants*                       | 9780813595832 |
+| Cochin & Plass                | *Analysis and Design of Dynamic Systems*                                            | 9780060413149 |
+| Cogdell                       | *Foundations of Electrical Engineering*                                             | 9780133295252 |
+| Douglas                       | *The Secret Horsepower Race: Western Front Fighter Engine Development*              | 9781911658504 |
+| Gere & Timoshenko             | *Mechanics of Materials*                                                            | 9780534030995 |
+| Horn                          | *Basic Electronics Theory: With Projects and Experiments*                           | 9780830607754 |
+| Hurt                          | *Aerodynamics for Naval Aviators*                                                   | 9781492948209 |
+| Incropera & DeWitt            | *Fundamentals of Heat and Mass Transfer*                                            | 9780471612469 |
+| Inman                         | *Engineering Vibration*                                                             | 9780135185315 |
+| John                          | *Gas Dynamics*                                                                      | 9780205080144 |
+| Johnson                       | *Helicopter Theory*                                                                 | 9780486682303 |
+| Loftin                        | *Quest for Performace: The Evolution of Modern Aircraft*                            | 9781503105027 |
+| McKerrow                      | *Introduction to Robotics*                                                          | 9780201182408 |
+| Metz                          | *Air Force Legends Number 220: Northrop YF-23 ATF*                                  | 9780989258371 |
+| Moran & Shapiro               | *Fundamentals of Engineering Thermodynamics*                                        | 9780471571179 |
+| Morley                        | *The Linear IC Handbook*                                                            | 9780830604722 |
+| Morrison                      | *Diesel Engineering Handbook*                                                       | Pre-ISBN      |
+| Munson, Young & Okiishi       | *Fundamentals of Fluid Mechanics*                                                   | 9780471855262 |
+| Prouty                        | *Helicopter Performace, Stability, and Control*                                     | 9781575242095 |
+| Reddy                         | *An Introduction to the Finite Element Method*                                      | 9780070513556 |
+| Rich & Janos                  | *Skunk Works: A Personal Memoir of My Years at Lockheed*                            | 9780751515039 |
+| Schaub & Junkins              | *Analytical Mechanics of Space Systems*                                             | 9781624105210 |
+| Shigley & Mischke             | *Mechanical Engineering Design*                                                     | 9780070568990 |
+| Spurk                         | *Fluid Mechanics*                                                                   | 9783540616511 |
+| Spurk                         | *Fluid Mechanics: Problems and Solutions*                                           | 9783540616528 |
+| Steidel                       | *An Introduction to Mechanical Vibrations*                                          | 9780471845454 |
+| Sutton & Biblarz              | *Rocket Propulsion Elements*                                                        | 9781118753651 |
+| Vance                         | *Rotordynamics of Turbomachinery*                                                   | 9780471802587 |
+| Wark                          | *Thermodynamics*                                                                    | 9780070682849 |
+| Warring                       | *Understanding Electronics*                                                         | 9780830602537 |
+| Woods                         | *NASA Saturn V 1967-1973 (Apollo 4 to Apollo 17 & Skylab): Owners' Workshop Manual* | 9780857338280 |
+| Wylen & Sonntag               | *Fundamentals of Classical Thermodynamics*                                          | 9780471861737 |
+
+## History
+
+| Author                                | Title                                                                                                                      | ISBN          |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| Beard                                 | *SPQR: A History of Ancient Rome*                                                                                          | 9780871404237 |
+| Boatwright, Gargola, Lenski & Talbert | *The Romans: From Village to Empire - A History of Rome from Earliest Times to the End of the Western Empire*              | 9780199730575 |
+| Boorstin                              | *The Discoverers: A History of Man's Search to Know His World and Himself*                                                 | 9780394726250 |
+| Brent & Naumov                        | *Stalin's Last Crime: The Plot Against the Jewish Doctors, 1948-1953*                                                      | 9780060195243 |
+| Davies                                | *Europe: A History*                                                                                                        | 9780060974688 |
+| Dougherty                             | *Small Arms: Visual Encyclopedia*                                                                                          | 9781435139343 |
+| Douglass                              | *Narrative of the Life of Frederick Douglass: An American Slave*                                                           | 9780312075316 |
+| Ford & Zaloga                         | *Overlord: The D-Day Landings*                                                                                             | 9781846034244 |
+| Fullenkamp, Bowman & Luvaas           | *Guide to the Vicksburg Campaign*                                                                                          | 9780700609239 |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Abridged Edition*                                                | 9780140437645 |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume 1*                                                        | 9780679423089 |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume 2*                                                        | 9780679423089 |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume 3*                                                        | 9780679423089 |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume 4*                                                        | 9780679435938 |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume 5*                                                        | 9780679435938 |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume 6*                                                        | 9780679435938 |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume I - The Turn of the Tide*                                 | No ISBN       |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume II - Constantine and the Christian Empire*                | No ISBN       |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume III - The Revival and Collapse of Paganism*               | No ISBN       |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume IV - The End of the Western Empire*                       | No ISBN       |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume V - Justinian and the Roman Law*                          | No ISBN       |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume VI - Mohammed and the Rise of the Arabs*                  | No ISBN       |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume VII - The Normans in Italy and the Crusades*              | No ISBN       |
+| Gibbon                                | *The History of the Decline and Fall of the Roman Empire: Volume VIII - The Fall of Constantinople and the Papacy in Rome* | No ISBN       |
+| Herodotus                             | *The Histories*                                                                                                            | 9780140449082 |
+| Holmes                                | *Undersea Victory: The Influence of Submarine Operations on the War in the Pacific*                                        | LCCN: 6517232 |
+| Livy                                  | *A History of Rome*                                                                                                        | LCCN: 629689  |
+| Russell                               | *A History of Western Philosophy*                                                                                          | 9780671201586 |
+| Rutter                                | *Wreaking Havoc: A Year in an A-20*                                                                                        | 9781603447379 |
+| Smith                                 | *The United States Navy in World War II*                                                                                   | LCCN: 6622113 |
+| Suetonius                             | *The Twelve Caesars*                                                                                                       | 9780140455168 |
+| Uttridge                              | *Military Uniforms: Visual Encyclopedia*                                                                                   | 9781908273024 |
+| Yeager & Janos                        | *Yeager: An Autobiography*                                                                                                 | 9780553050936 |
+| Zamoyski                              | *1812: Napoleon's Fatal March on Moscow*                                                                                   | 9780007123742 |
+
+## Language
+
+| Author               | Title                                                                                                  | ISBN          |
+| -------------------- | ------------------------------------------------------------------------------------------------------ | ------------- |
+| Comeau & LaFleur     | *Workbook for Wheelock's Latin*                                                                        | 9780060956424 |
+| LaFleur              | *Scribblers, Sculptors, and Scribes: A Companion to Wheelock's Latin and Other Introductory Textbooks* | 9780061259180 |
+| Moreland & Fleischer | *Latin: An Intensive Course*                                                                           | 9780520031838 |
+| Neumann              | *Lingua Latina: A Companion to Familia Romana*                                                         | 9781585108091 |
+| Owens                | *Lingua Latina per se Illustrata: Pars I - Glossarium*                                                 | 9781585106936 |
+| Wheelock & LaFleur   | *Wheelock's Latin*                                                                                     | 9780061997228 |
+| Wheelock & LaFleur   | *Wheelock's Latin Reader: Selections from Latin Literature*                                            | 9780060935061 |
+| Ørberg               | *Lingua Latina per se Illustrata: Colloquia Personarum*                                                | 9781585109388 |
+| Ørberg               | *Lingua Latina per se Illustrata: Pars I - Exercitia Latina I*                                         | 9781585102129 |
+| Ørberg               | *Lingua Latina per se Illustrata: Pars I - Familia Romana*                                             | 9781585104208 |
+| Ørberg               | *Lingua Latina per se Illustrata: Pars I - Grammatica Latina*                                          | 9781585102235 |
+| Ørberg               | *Lingua Latina per se Illustrata: Pars I - Latine Disco*                                               | 9781585100507 |
+
+## Mathematics
+
+| Author          | Title                                                                | ISBN          |
+| --------------- | -------------------------------------------------------------------- | ------------- |
+| Agnew & Knapp   | *Linear Algebra with Applications*                                   | 9780534013646 |
+| Boyce & DiPrima | *Elementary Differential Equations and Boundary Value Problems*      | 9780471093343 |
+| Orleans & Hart  | *Intermediate Algebra*                                               | Pre-ISBN      |
+| Schey           | *Div, Grad, Curl, and All That: An Informal Text on Vector Calculus* | 9780393925166 |
+| Spiegel         | *Applied Differential Equations*                                     | 9780130400970 |
+
+## Modern Literature
+
+| Author   | Title                              | ISBN          |
+| -------- | ---------------------------------- | ------------- |
+| Bradbury | *Fahrenheit 451*                   | 9780345342966 |
+| Heller   | *Catch-22*                         | 9781451626650 |
+| Hosseini | *The Kite Runner*                  | 9781594631931 |
+| Matthee  | *Fiela's Child*                    | 9780226510835 |
+| Márquez  | *Chronicle of a Death Foretold*    | 9781400034710 |
+| Orwell   | *1984*                             | 9780451524935 |
+| Süskind  | *Perfume: The Story of a Murderer* | 9780375725845 |
+| Tolkien  | *The Hobbit*                       | 9780345339683 |
+| Tolkien  | *The Lord of the Rings*            | 9780544003415 |
+
+## Philosophy
+
+| Author    | Title                                                       | ISBN          |
+| --------- | ----------------------------------------------------------- | ------------- |
+| Aristotle | *Nicomachean Ethics*                                        | 9780760752364 |
+| Aristotle | *The Metaphysics*                                           | 9780140446197 |
+| Aurelius  | *Meditations*                                               | 9780140449334 |
+| Epictetus | *Discourses and Enchiridion*                                | Pre-ISBN      |
+| Nietzsche | *Thus Spoke Zarathustra: A Book for Everyone and No One*    | 9780140441185 |
+| Plato     | *Republic*                                                  | 9780192833709 |
+| Plato     | *The Last Days of Socrates: Euthyphro/Apology/Crito/Phaedo* | 9780140445824 |
+
+## Physics
+
+| Author                       | Title                                                                                                                         | ISBN          |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| Bassichis                    | *Don't Panic: A Guide to Introductory Physics for Students of Science and Engineering - Volume II: Electricity and Magnetism* | 9780962467134 |
+| Chen                         | *Introduction to Plasma Physics and Controlled Fusion*                                                                        | 9783319223087 |
+| Feynman, Leighton & Sands    | *Exercises for the Feynman Lectures on Physics*                                                                               | 9780465060719 |
+| Feynman, Leighton & Sands    | *The Feynman Lectures on Physics: Volume I - Mainly Mechanics, Radiation, and Heat*                                           | 9780465024148 |
+| Feynman, Leighton & Sands    | *The Feynman Lectures on Physics: Volume II - Mainly Electromagnetism and Matter*                                             | 9780465024162 |
+| Feynman, Leighton & Sands    | *The Feynman Lectures on Physics: Volume III - Quantum Mechanics*                                                             | 9780465024179 |
+| Fleisch                      | *A Student's Guide to Maxwell's Equations*                                                                                    | 9780521877619 |
+| Fleisch                      | *A Student's Guide to the Schrödinger Equation*                                                                               | 9781108834735 |
+| Ford                         | *Solutions Guide to Accompany University Physics*                                                                             | 9780201072259 |
+| Fowles                       | *Introduction to Modern Optics*                                                                                               | 9780486659572 |
+| Fox                          | *A Student's Guide to Atomic Physics*                                                                                         | 9781107188730 |
+| Garvin                       | *A Student's Guide to the Navier-Stokes Equations*                                                                            | 9781009236157 |
+| Griffiths                    | *Introduction to Electrodynamics*                                                                                             | 9781108420419 |
+| Halliday & Resnick           | *Physics: Part 2*                                                                                                             | 9780471345299 |
+| Halliday, Resnick & Derringh | *Selected Solutions for Physics*                                                                                              | 9780471097129 |
+| Hallmark                     | *Lasers, the Light Fantastic*                                                                                                 | 9780830698578 |
+| Hecht                        | *Optics*                                                                                                                      | 9780805385663 |
+| Hudson & Nelson              | *University Physics*                                                                                                          | 9780155929609 |
+| Penrose                      | *The Road to Reality: A Complete Guide to the Laws of the Universe*                                                           | 9780679454434 |
+| Sears, Zemansky & Young      | *University Physics: Part I*                                                                                                  | 9780201071962 |
+| Susskind & Cabannes          | *General Relativity: The Theoretical Minimum*                                                                                 | 9780141999869 |
+| Susskind & Friedman          | *Quantum Mechanics: The Theoretical Minimum*                                                                                  | 9780141977812 |
+| Susskind & Friedman          | *Special Relativity and Classical Field Theory: The Theoretical Minimum*                                                      | 9780141985015 |
+| Susskind & Hrabovsky         | *Classical Mechanics: The Theoretical Minimum*                                                                                | 9780141976228 |
+
+## Science
+
+| Author                    | Title                                                                                                             | ISBN           |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------- |
+| Anderson, Pasachoff & Day | *Peterson Field Guide to Weather*                                                                                 | 9780547133317  |
+| Books                     | *Voyage Through the Universe: Stars*                                                                              | 9780809468584  |
+| Cecil                     | *Textbook of Medicine*                                                                                            | Pre-ISBN       |
+| Darwin                    | *The Origin of Species by Means of Natural Selection: The Preservation of Favored Races in the Struggle for Life* | 9780140432053  |
+| Farmer & Hamblin          | *First on the Moon: A Voyage with Neil Armstrong, Michael Collins and Edwin E. Aldrin Jr.*                        | 9780316051606  |
+| Hamming                   | *The Art of Doing Science and Engineering: Learning to Learn*                                                     | 9781732265172  |
+| Hawking                   | *A Brief History of Time: From the Big Bang to Black Holes*                                                       | 9780553053401  |
+| Holton & Hakim            | *An Introduction to Dynamic Meteorology*                                                                          | 9780123848666  |
+| Ludlum                    | *The Audubon Society Field Guide to North American Weather*                                                       | 9780679408512  |
+| Munroe                    | *What If?: Serious Scientific Answers to Absurd Hypothetical Questions*                                           | 9780544272996  |
+| NASA                      | *Lunar Photographs from Apollos 8, 10, and 11*                                                                    | LCCN: 75608546 |
+| Oddo & Topaz              | *We Came in Peace: The Story of Man in Space*                                                                     | 9781112997389  |
+| Sagan                     | *Cosmos*                                                                                                          | 9780394502946  |
+| Wallace & Hobbs           | *Atmospheric Science: An Introductory Survey*                                                                     | 9780127329512  |
+| Wolfe                     | *The Right Stuff*                                                                                                 | 9780312427566  |
+
+## Science Fiction
+
+| Author     | Title                    | ISBN          |
+| ---------- | ------------------------ | ------------- |
+| Bradbury   | *The Martian Chronicles* | 9781451678192 |
+| Card       | *Ender's Game*           | 9780765337542 |
+| Glukhovsky | *Metro 2033*             | 9781407244082 |
+| Herbert    | *Dune*                   | 9780593099322 |
+| Liu        | *Death's End*            | 9780765386632 |
+| Liu        | *The Dark Forest*        | 9780765386694 |
+| Liu        | *The Three-Body Problem* | 9780765382030 |
+
+## Theater
+
+| Author      | Title                                                  | ISBN          |
+| ----------- | ------------------------------------------------------ | ------------- |
+| Fugard      | *Master Harold and the Boys: A Play*                   | 9780307475206 |
+| Shakespeare | *The Portable Shakespeare*                             | 9780140150087 |
+| Stoppard    | *Rosencrantz & Guildenstern Are Dead*                  | 9780394172606 |
+| Wilde       | *The Importance of Being Earnest and Four Other Plays* | 9781593080594 |
+| Williams    | *A Streetcar Named Desire*                             | 9780811207652 |
