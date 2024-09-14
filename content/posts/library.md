@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2024-09-02
+date = 2024-09-13
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -8,14 +8,18 @@ summary = 'The books I own.'
 
 ## Chemistry
 
-| Author                   | Title                                                                                                           | ISBN          |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------- |
-| Atkins, Jones & Laverman | *Chemical Principles: The Quest for Insight*                                                                    | 9781464183959 |
-| Harris & Bertolucci      | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy*                         | 9780486661445 |
-| Johnson, Lavelle & Ma    | *Student Solutions Manual to Accompany Chemical Principles: The Quest for Insight*                              | 9781319017569 |
-| O'Connor                 | *Fundamentals of Chemistry*                                                                                     | 9780808715290 |
-| Pauling                  | *General Chemistry*                                                                                             | 9780716701484 |
-| Singh, Pike & Szafran    | *Microscale & Selected Macroscale Experiments for General & Advanced General Chemistry: An Innovative Approach* | 9780471585961 |
+| Author                         | Title                                                                                                           | ISBN          |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------- |
+| Atkins, Jones & Laverman       | *Chemical Principles: The Quest for Insight*                                                                    | 9781464183959 |
+| Hanson, Spearrin & Goldenstein | *Spectroscopy and Optical Diagnostics for Gases*                                                                | 9783319232515 |
+| Harris & Bertolucci            | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy*                         | 9780486661445 |
+| Herzberg                       | *Atomic Spectra and Atomic Structure*                                                                           | 9780486601151 |
+| Herzberg                       | *Molecular Spectra and Molecular Structure: Volume I - Spectra of Diatomic Molecules*                           | 9780442033859 |
+| Johnson, Lavelle & Ma          | *Student Solutions Manual to Accompany Chemical Principles: The Quest for Insight*                              | 9781319017569 |
+| McQuarrie & Simon              | *Physical Chemistry: A Molecular Approach*                                                                      | 9780935702996 |
+| O'Connor                       | *Fundamentals of Chemistry*                                                                                     | 9780808715290 |
+| Pauling                        | *General Chemistry*                                                                                             | 9780716701484 |
+| Singh, Pike & Szafran          | *Microscale & Selected Macroscale Experiments for General & Advanced General Chemistry: An Innovative Approach* | 9780471585961 |
 
 ## Classic Literature
 
@@ -87,6 +91,7 @@ summary = 'The books I own.'
 | Morrison                      | *Diesel Engineering Handbook*                                                       | Pre-ISBN      |
 | Munson, Young & Okiishi       | *Fundamentals of Fluid Mechanics*                                                   | 9780471855262 |
 | Prouty                        | *Helicopter Performace, Stability, and Control*                                     | 9781575242095 |
+| Rao                           | *Dynamics of Particles and Rigid Bodies: A Systematic Approach*                     | 9780521858113 |
 | Reddy                         | *An Introduction to the Finite Element Method*                                      | 9780070513556 |
 | Rich & Janos                  | *Skunk Works: A Personal Memoir of My Years at Lockheed*                            | 9780751515039 |
 | Schaub & Junkins              | *Analytical Mechanics of Space Systems*                                             | 9781624105210 |
@@ -210,13 +215,16 @@ summary = 'The books I own.'
 | Fox                          | *A Student's Guide to Atomic Physics*                                                                                         | 9781107188730 |
 | Garvin                       | *A Student's Guide to the Navier-Stokes Equations*                                                                            | 9781009236157 |
 | Griffiths                    | *Introduction to Electrodynamics*                                                                                             | 9781108420419 |
+| Griffiths & Schroeter        | *Introduction to Quantum Mechanics*                                                                                           | 9781107189638 |
 | Halliday & Resnick           | *Physics: Part 2*                                                                                                             | 9780471345299 |
 | Halliday, Resnick & Derringh | *Selected Solutions for Physics*                                                                                              | 9780471097129 |
 | Hallmark                     | *Lasers, the Light Fantastic*                                                                                                 | 9780830698578 |
 | Hecht                        | *Optics*                                                                                                                      | 9780805385663 |
 | Hudson & Nelson              | *University Physics*                                                                                                          | 9780155929609 |
+| Nordling & Österman          | *Physics Handbook for Science and Engineering*                                                                                | 9789144044538 |
 | Penrose                      | *The Road to Reality: A Complete Guide to the Laws of the Universe*                                                           | 9780679454434 |
 | Sears, Zemansky & Young      | *University Physics: Part I*                                                                                                  | 9780201071962 |
+| Siegman                      | *Lasers*                                                                                                                      | 9780935702118 |
 | Susskind & Cabannes          | *General Relativity: The Theoretical Minimum*                                                                                 | 9780141999869 |
 | Susskind & Friedman          | *Quantum Mechanics: The Theoretical Minimum*                                                                                  | 9780141977812 |
 | Susskind & Friedman          | *Special Relativity and Classical Field Theory: The Theoretical Minimum*                                                      | 9780141985015 |
@@ -238,6 +246,7 @@ summary = 'The books I own.'
 | Munroe                    | *What If?: Serious Scientific Answers to Absurd Hypothetical Questions*                                           | 9780544272996  |
 | NASA                      | *Lunar Photographs from Apollos 8, 10, and 11*                                                                    | LCCN: 75608546 |
 | Oddo & Topaz              | *We Came in Peace: The Story of Man in Space*                                                                     | 9781112997389  |
+| Rhodes                    | *The Making of the Atomic Bomb*                                                                                   | 9780671657192  |
 | Sagan                     | *Cosmos*                                                                                                          | 9780394502946  |
 | Wallace & Hobbs           | *Atmospheric Science: An Introductory Survey*                                                                     | 9780127329512  |
 | Wolfe                     | *The Right Stuff*                                                                                                 | 9780312427566  |
