@@ -200,35 +200,38 @@ summary = 'The books I own.'
 
 ## Physics
 
-| Author                       | Title                                                                                                                         | ISBN          |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| Bassichis                    | *Don't Panic: A Guide to Introductory Physics for Students of Science and Engineering - Volume II: Electricity and Magnetism* | 9780962467134 |
-| Chen                         | *Introduction to Plasma Physics and Controlled Fusion*                                                                        | 9783319223087 |
-| Feynman, Leighton & Sands    | *Exercises for the Feynman Lectures on Physics*                                                                               | 9780465060719 |
-| Feynman, Leighton & Sands    | *The Feynman Lectures on Physics: Volume I - Mainly Mechanics, Radiation, and Heat*                                           | 9780465024148 |
-| Feynman, Leighton & Sands    | *The Feynman Lectures on Physics: Volume II - Mainly Electromagnetism and Matter*                                             | 9780465024162 |
-| Feynman, Leighton & Sands    | *The Feynman Lectures on Physics: Volume III - Quantum Mechanics*                                                             | 9780465024179 |
-| Fleisch                      | *A Student's Guide to Maxwell's Equations*                                                                                    | 9780521877619 |
-| Fleisch                      | *A Student's Guide to the Schrödinger Equation*                                                                               | 9781108834735 |
-| Ford                         | *Solutions Guide to Accompany University Physics*                                                                             | 9780201072259 |
-| Fowles                       | *Introduction to Modern Optics*                                                                                               | 9780486659572 |
-| Fox                          | *A Student's Guide to Atomic Physics*                                                                                         | 9781107188730 |
-| Garvin                       | *A Student's Guide to the Navier-Stokes Equations*                                                                            | 9781009236157 |
-| Griffiths                    | *Introduction to Electrodynamics*                                                                                             | 9781108420419 |
-| Griffiths & Schroeter        | *Introduction to Quantum Mechanics*                                                                                           | 9781107189638 |
-| Halliday & Resnick           | *Physics: Part 2*                                                                                                             | 9780471345299 |
-| Halliday, Resnick & Derringh | *Selected Solutions for Physics*                                                                                              | 9780471097129 |
-| Hallmark                     | *Lasers, the Light Fantastic*                                                                                                 | 9780830698578 |
-| Hecht                        | *Optics*                                                                                                                      | 9780805385663 |
-| Hudson & Nelson              | *University Physics*                                                                                                          | 9780155929609 |
-| Nordling & Österman          | *Physics Handbook for Science and Engineering*                                                                                | 9789144044538 |
-| Penrose                      | *The Road to Reality: A Complete Guide to the Laws of the Universe*                                                           | 9780679454434 |
-| Sears, Zemansky & Young      | *University Physics: Part I*                                                                                                  | 9780201071962 |
-| Siegman                      | *Lasers*                                                                                                                      | 9780935702118 |
-| Susskind & Cabannes          | *General Relativity: The Theoretical Minimum*                                                                                 | 9780141999869 |
-| Susskind & Friedman          | *Quantum Mechanics: The Theoretical Minimum*                                                                                  | 9780141977812 |
-| Susskind & Friedman          | *Special Relativity and Classical Field Theory: The Theoretical Minimum*                                                      | 9780141985015 |
-| Susskind & Hrabovsky         | *Classical Mechanics: The Theoretical Minimum*                                                                                | 9780141976228 |
+| Author                        | Title                                                                                                                         | ISBN          |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| Bassichis                     | *Don't Panic: A Guide to Introductory Physics for Students of Science and Engineering - Volume II: Electricity and Magnetism* | 9780962467134 |
+| Chen                          | *Introduction to Plasma Physics and Controlled Fusion*                                                                        | 9783319223087 |
+| Eckbreth                      | *Laser Diagnostics for Combustion Temperature and Species*                                                                    | 9789056995324 |
+| Feynman, Leighton & Sands     | *Exercises for the Feynman Lectures on Physics*                                                                               | 9780465060719 |
+| Feynman, Leighton & Sands     | *The Feynman Lectures on Physics: Volume I - Mainly Mechanics, Radiation, and Heat*                                           | 9780465024148 |
+| Feynman, Leighton & Sands     | *The Feynman Lectures on Physics: Volume II - Mainly Electromagnetism and Matter*                                             | 9780465024162 |
+| Feynman, Leighton & Sands     | *The Feynman Lectures on Physics: Volume III - Quantum Mechanics*                                                             | 9780465024179 |
+| Fleisch                       | *A Student's Guide to Maxwell's Equations*                                                                                    | 9780521877619 |
+| Fleisch                       | *A Student's Guide to the Schrödinger Equation*                                                                               | 9781108834735 |
+| Ford                          | *Solutions Guide to Accompany University Physics*                                                                             | 9780201072259 |
+| Fowles                        | *Introduction to Modern Optics*                                                                                               | 9780486659572 |
+| Fox                           | *A Student's Guide to Atomic Physics*                                                                                         | 9781107188730 |
+| Garvin                        | *A Student's Guide to the Navier-Stokes Equations*                                                                            | 9781009236157 |
+| Griffiths                     | *Introduction to Electrodynamics*                                                                                             | 9781108420419 |
+| Griffiths & Schroeter         | *Introduction to Quantum Mechanics*                                                                                           | 9781107189638 |
+| Halliday & Resnick            | *Physics: Part 2*                                                                                                             | 9780471345299 |
+| Halliday, Resnick & Derringh  | *Selected Solutions for Physics*                                                                                              | 9780471097129 |
+| Hallmark                      | *Lasers, the Light Fantastic*                                                                                                 | 9780830698578 |
+| Hecht                         | *Optics*                                                                                                                      | 9780805385663 |
+| Hecht                         | *The Laser Guidebook*                                                                                                         | 9780830642748 |
+| Hudson & Nelson               | *University Physics*                                                                                                          | 9780155929609 |
+| Nordling & Österman           | *Physics Handbook for Science and Engineering*                                                                                | 9789144044538 |
+| Pedrotti, Pedrotti & Pedrotti | *Introduction to Optics*                                                                                                      | 9780131499331 |
+| Penrose                       | *The Road to Reality: A Complete Guide to the Laws of the Universe*                                                           | 9780679454434 |
+| Sears, Zemansky & Young       | *University Physics: Part I*                                                                                                  | 9780201071962 |
+| Siegman                       | *Lasers*                                                                                                                      | 9780935702118 |
+| Susskind & Cabannes           | *General Relativity: The Theoretical Minimum*                                                                                 | 9780141999869 |
+| Susskind & Friedman           | *Quantum Mechanics: The Theoretical Minimum*                                                                                  | 9780141977812 |
+| Susskind & Friedman           | *Special Relativity and Classical Field Theory: The Theoretical Minimum*                                                      | 9780141985015 |
+| Susskind & Hrabovsky          | *Classical Mechanics: The Theoretical Minimum*                                                                                | 9780141976228 |
 
 ## Science
 
