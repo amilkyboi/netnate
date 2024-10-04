@@ -83,6 +83,7 @@ summary = 'The books I own.'
 | Inman                         | *Engineering Vibration*                                                             | 9780135185315 |
 | John                          | *Gas Dynamics*                                                                      | 9780205080144 |
 | Johnson                       | *Helicopter Theory*                                                                 | 9780486682303 |
+| Leishman                      | *Principles of Helicopter Aerodynamics*                                             | 9781107013353 |
 | Loftin                        | *Quest for Performace: The Evolution of Modern Aircraft*                            | 9781503105027 |
 | McKerrow                      | *Introduction to Robotics*                                                          | 9780201182408 |
 | Metz                          | *Air Force Legends Number 220: Northrop YF-23 ATF*                                  | 9780989258371 |
@@ -96,6 +97,8 @@ summary = 'The books I own.'
 | Rich & Janos                  | *Skunk Works: A Personal Memoir of My Years at Lockheed*                            | 9780751515039 |
 | Schaub & Junkins              | *Analytical Mechanics of Space Systems*                                             | 9781624105210 |
 | Shigley & Mischke             | *Mechanical Engineering Design*                                                     | 9780070568990 |
+| Silver                        | *The ARRL Antenna Book for Radio Communications*                                    | 9781625951755 |
+| Silver                        | *The ARRL Handbook for Radio Communications*                                        | 9781625951571 |
 | Spurk                         | *Fluid Mechanics*                                                                   | 9783540616511 |
 | Spurk                         | *Fluid Mechanics: Problems and Solutions*                                           | 9783540616528 |
 | Steidel                       | *An Introduction to Mechanical Vibrations*                                          | 9780471845454 |
@@ -223,10 +226,12 @@ summary = 'The books I own.'
 | Hecht                         | *Optics*                                                                                                                      | 9780805385663 |
 | Hecht                         | *The Laser Guidebook*                                                                                                         | 9780830642748 |
 | Hudson & Nelson               | *University Physics*                                                                                                          | 9780155929609 |
+| Krane                         | *Introductory Nuclear Physics*                                                                                                | 9780471805533 |
 | Nordling & Österman           | *Physics Handbook for Science and Engineering*                                                                                | 9789144044538 |
 | Pedrotti, Pedrotti & Pedrotti | *Introduction to Optics*                                                                                                      | 9780131499331 |
 | Penrose                       | *The Road to Reality: A Complete Guide to the Laws of the Universe*                                                           | 9780679454434 |
 | Sears, Zemansky & Young       | *University Physics: Part I*                                                                                                  | 9780201071962 |
+| Shankar                       | *Principles of Quantum Mechanics*                                                                                             | 9780306447907 |
 | Siegman                       | *Lasers*                                                                                                                      | 9780935702118 |
 | Susskind & Cabannes           | *General Relativity: The Theoretical Minimum*                                                                                 | 9780141999869 |
 | Susskind & Friedman           | *Quantum Mechanics: The Theoretical Minimum*                                                                                  | 9780141977812 |
