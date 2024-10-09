@@ -10,6 +10,7 @@ summary = 'The books I own.'
 
 | Author                         | Title                                                                                                           | ISBN          |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------- |
+| Atkins & Friedman              | *Molecular Quantum Mechanics*                                                                                   | 9780199541423 |
 | Atkins, Jones & Laverman       | *Chemical Principles: The Quest for Insight*                                                                    | 9781464183959 |
 | Hanson, Spearrin & Goldenstein | *Spectroscopy and Optical Diagnostics for Gases*                                                                | 9783319232515 |
 | Harris & Bertolucci            | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy*                         | 9780486661445 |
@@ -219,6 +220,7 @@ summary = 'The books I own.'
 | Fox                           | *A Student's Guide to Atomic Physics*                                                                                         | 9781107188730 |
 | Garvin                        | *A Student's Guide to the Navier-Stokes Equations*                                                                            | 9781009236157 |
 | Griffiths                     | *Introduction to Electrodynamics*                                                                                             | 9781108420419 |
+| Griffiths                     | *Introduction to Elementary Particles*                                                                                        | 9783527406012 |
 | Griffiths & Schroeter         | *Introduction to Quantum Mechanics*                                                                                           | 9781107189638 |
 | Halliday & Resnick            | *Physics: Part 2*                                                                                                             | 9780471345299 |
 | Halliday, Resnick & Derringh  | *Selected Solutions for Physics*                                                                                              | 9780471097129 |
