@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2024-09-13
+date = 2024-10-11
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -239,6 +239,7 @@ summary = 'The books I own.'
 | Susskind & Friedman           | *Quantum Mechanics: The Theoretical Minimum*                                                                                  | 9780141977812 |
 | Susskind & Friedman           | *Special Relativity and Classical Field Theory: The Theoretical Minimum*                                                      | 9780141985015 |
 | Susskind & Hrabovsky          | *Classical Mechanics: The Theoretical Minimum*                                                                                | 9780141976228 |
+| Taylor                        | *Classical Mechanics*                                                                                                         | 9781891389221 |
 
 ## Science
 
