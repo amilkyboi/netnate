@@ -17,6 +17,8 @@ summary = 'The books I own.'
 | Herzberg                       | *Atomic Spectra and Atomic Structure*                                                                           | 9780486601151 |
 | Herzberg                       | *Molecular Spectra and Molecular Structure: Volume I - Spectra of Diatomic Molecules*                           | 9780442033859 |
 | Johnson, Lavelle & Ma          | *Student Solutions Manual to Accompany Chemical Principles: The Quest for Insight*                              | 9781319017569 |
+| Lefebvre-Brion & Field         | *The Spectra and Dynamics of Diatomic Molecules*                                                                | 9780124414556 |
+| Mallick                        | *Fundamentals of Molecular Spectroscopy*                                                                        | 9789819907908 |
 | McQuarrie & Simon              | *Physical Chemistry: A Molecular Approach*                                                                      | 9780935702996 |
 | O'Connor                       | *Fundamentals of Chemistry*                                                                                     | 9780808715290 |
 | Pauling                        | *General Chemistry*                                                                                             | 9780716701484 |
