@@ -234,6 +234,7 @@ summary = 'The books I own.'
 | Nordling & Österman           | *Physics Handbook for Science and Engineering*                                                                                | 9789144044538 |
 | Pedrotti, Pedrotti & Pedrotti | *Introduction to Optics*                                                                                                      | 9780131499331 |
 | Penrose                       | *The Road to Reality: A Complete Guide to the Laws of the Universe*                                                           | 9780679454434 |
+| Reed                          | *The Physics of the Manhattan Project*                                                                                        | 9783030613723 |
 | Sears, Zemansky & Young       | *University Physics: Part I*                                                                                                  | 9780201071962 |
 | Shankar                       | *Principles of Quantum Mechanics*                                                                                             | 9780306447907 |
 | Siegman                       | *Lasers*                                                                                                                      | 9780935702118 |
