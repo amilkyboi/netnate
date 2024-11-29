@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2024-10-11
+date = 2024-11-29
 draft = false
 tags = ['books']
 summary = 'The books I own.'
